@@ -1,156 +1,48 @@
 {
   "metadata": {
-    "scraped_at": "2025-09-15T22:59:49.916394",
-    "total_count": 150,
+    "scraped_at": "2025-09-16T06:27:37.054534",
+    "total_count": 148,
     "source": "vanpeople.com",
     "filtered": "排除价格为'面议'的房源"
   },
   "rentals": [
     {
-      "title": "独立出入house大套房｜可养猫",
-      "link": "https://c.vanpeople.com/zufang/item-3393349.html",
-      "price": "$1,390",
+      "title": "新装修的一层House独立出入全包$1100",
+      "link": "https://c.vanpeople.com/zufang/item-3395095.html",
+      "price": "$1,100",
       "price_unit": "加币/月",
       "included": "包水, 电, 网, 天然气",
       "location": "列治文",
       "property_details": [
         "列治文",
-        "1卧",
-        "独立屋",
-        "整租",
-        "1卫",
-        "0den"
+        "分租",
+        "独立屋"
       ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/05/20/qiHDF0ree2.4CK4vf4JWkW4vkuKo_w300_b588.jpg",
+      "image_url": "https://thumb.vancdn.com/van/c/202509/10/07/zKRf8gNADn.qLyzvzWCfNkkvzv4c_w300_b832.jpg",
       "has_real_image": true,
-      "contact": "魏先生",
-      "publish_time": "昨天",
-      "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:45.981987"
-    },
-    {
-      "title": "Metrotown 2BR 空调condo出租",
-      "link": "https://c.vanpeople.com/zufang/item-3393413.html",
-      "price": "$2,950",
-      "price_unit": "加币/月",
-      "included": "包水, 天然气",
-      "location": "本拿比",
-      "property_details": [
-        "本拿比",
-        "公寓",
-        "整租",
-        "2卧",
-        "2卫",
-        "0den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/05/23/zu7zDEcDg9.uyDzvy4uzzyuikLCA_ysANm_w300_adc1.jpg",
-      "has_real_image": true,
-      "contact": "Zed",
-      "publish_time": "3天前",
-      "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:45.982354"
-    },
-    {
-      "title": "Richmond 二号路独立出入一居室出租",
-      "link": "https://c.vanpeople.com/zufang/item-3393949.html",
-      "price": "$1,600",
-      "price_unit": "加币/月",
-      "included": "包水, 电, 天然气",
-      "location": "列治文",
-      "property_details": [
-        "列治文",
-        "1卧",
-        "独立屋",
-        "整租",
-        "1卫",
-        "0den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/09/10/KD9ur_x-mS.kKDyfCkLyuyLkvDLv_w300_2306.png",
-      "has_real_image": true,
-      "contact": "Helen",
+      "contact": "房东",
       "publish_time": "2025/09/10",
-      "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:45.982723"
-    },
-    {
-      "title": "本拿比商圈Edmonds天车站旁一年新高层",
-      "link": "https://c.vanpeople.com/zufang/item-3391742.html",
-      "price": "$3,000",
-      "price_unit": "加币/月",
-      "included": "包水, 天然气",
-      "location": "本拿比",
-      "property_details": [
-        "本拿比",
-        "公寓",
-        "整租",
-        "2卧",
-        "2卫",
-        "1den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/02/00/Kf5oL_e7Yg.uDqqJkukfvDifvJLH_w300_442f.jpg",
-      "has_real_image": true,
-      "contact": "Feng",
-      "publish_time": "3天前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.983144"
+      "scraped_at": "2025-09-16T06:27:33.162883"
     },
     {
-      "title": "天车站附近Cambie house二楼单间出租",
-      "link": "https://c.vanpeople.com/zufang/item-3385164.html",
-      "price": "$1,200",
+      "title": "温哥华ontario&60th 独立卫浴套间出租",
+      "link": "https://c.vanpeople.com/zufang/item-3391774.html",
+      "price": "$1,400",
       "price_unit": "加币/月",
-      "included": "包水, 电, 网, 天然气",
+      "included": "包水, 网",
       "location": "温哥华",
       "property_details": [
         "温哥华",
         "分租",
         "独立屋"
       ],
-      "image_url": "https://thumb.vancdn.com/van/c/202508/14/22/zDDvY0-Hre.kkqC44ui4y4WKvDqI_w300_0e04.jpg",
+      "image_url": "https://thumb.vancdn.com/van/c/202509/02/08/vD42v9wta5.fNyf4WiDKJfuWJvDR_w300_9b62.jpg",
       "has_real_image": true,
-      "contact": "Sophia",
-      "publish_time": "3天前",
-      "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.983535"
-    },
-    {
-      "title": "列治文近天车站大统华KPU单房出租",
-      "link": "https://c.vanpeople.com/zufang/item-3396241.html",
-      "price": "$1,050",
-      "price_unit": "加币/月",
-      "included": "包水, 电, 网, 天然气",
-      "location": "列治文",
-      "property_details": [
-        "列治文",
-        "分租",
-        "连排屋"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/12/23/iqWTmu1FC4.iLiifCzDiWDqkffil_w300_ee48.jpg",
-      "has_real_image": true,
-      "contact": "孙女士",
-      "publish_time": "2天前",
+      "contact": "张先生",
+      "publish_time": "昨天",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:45.983878"
-    },
-    {
-      "title": "天车站口近机场公寓房瑜伽游泳健美设施齐景美拎包可住6048182698",
-      "link": "https://c.vanpeople.com/zufang/item-3391608.html",
-      "price": "$900",
-      "price_unit": "加币/月",
-      "included": "包水, 电, 网, 天然气",
-      "location": "列治文",
-      "property_details": [
-        "列治文",
-        "公寓",
-        "分租",
-        "独立卫浴"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/01/17/zz8oxrEk0P.LJqJqNKNCJCLuCfkx_w300_a5a2.jpg",
-      "has_real_image": true,
-      "contact": "元喜",
-      "publish_time": "8小时前",
-      "languages": "国语，粤语",
-      "scraped_at": "2025-09-15T22:59:45.984232"
+      "scraped_at": "2025-09-16T06:27:33.163353"
     },
     {
       "title": "列治文北门户600尺水景向南一房",
@@ -172,117 +64,26 @@
       "contact": "Brian",
       "publish_time": "7小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.984595"
+      "scraped_at": "2025-09-16T06:27:33.163862"
     },
     {
-      "title": "Ubc,列治文 1房2房3房公寓拎包入住",
-      "link": "https://c.vanpeople.com/zufang/item-3139989.html",
-      "price": "$4,000",
+      "title": "bus直达ubc单房招男生",
+      "link": "https://c.vanpeople.com/zufang/item-3396002.html",
+      "price": "$1,250",
       "price_unit": "加币/月",
       "included": "包水, 电, 网, 天然气",
-      "location": "列治文",
-      "property_details": [
-        "列治文",
-        "公寓",
-        "1卧",
-        "整租",
-        "1卫",
-        "1den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202311/30/13/iu9q8Vq7u3.WLuqNKWukKv4vNNNa_w300_a90a.jpg",
-      "has_real_image": true,
-      "contact": "Lisa",
-      "publish_time": "2025/09/03",
-      "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:45.985090"
-    },
-    {
-      "title": "素里中心一房一厅高级景观公寓出租即可入住",
-      "link": "https://c.vanpeople.com/zufang/item-3358638.html",
-      "price": "$1,720",
-      "price_unit": "加币/月",
-      "included": "",
-      "location": "素里",
-      "property_details": [
-        "素里",
-        "公寓",
-        "1卧",
-        "整租",
-        "1卫",
-        "0den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202506/05/11/JiqzJ6BZIS.Di4JifWDJqyWzJkqk_ysANm_w300_f5d3.jpg",
-      "has_real_image": true,
-      "contact": "诚信房东",
-      "publish_time": "1天前",
-      "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:45.985458"
-    },
-    {
-      "title": "南素里/白石镇 1年新 一室一厅公寓",
-      "link": "https://c.vanpeople.com/zufang/item-3250931.html",
-      "price": "$1,999",
-      "price_unit": "加币/月",
-      "included": "",
-      "location": "素里",
-      "property_details": [
-        "素里",
-        "公寓",
-        "1卧",
-        "整租",
-        "1卫",
-        "0den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202408/17/19/iqEhsnIunj.NykyNzKKyyyizfCWH_ysANm_w300_f369.jpg",
-      "has_real_image": true,
-      "contact": "Tony",
-      "publish_time": "15小时前",
-      "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.985818"
-    },
-    {
-      "title": "Oakridge如新矮层水泥公寓 一房一旦包网家具",
-      "link": "https://c.vanpeople.com/zufang/item-3393368.html",
-      "price": "$2,580",
-      "price_unit": "加币/月",
-      "included": "包水, 网, 天然气",
       "location": "温哥华",
       "property_details": [
         "温哥华",
-        "公寓",
-        "1卧",
-        "整租",
-        "1卫",
-        "1den"
+        "分租",
+        "独立屋"
       ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/05/20/KDBDAmahO3.yzDvDqLvNi4vk4Dkl_w300_c3a4.jpg",
+      "image_url": "https://thumb.vancdn.com/van/c/202509/12/13/JKDT5DIDWy.qNvqfNNJyvk4zLCJH_w300_e0be.jpg",
       "has_real_image": true,
-      "contact": "Jane Jiang",
-      "publish_time": "4天前",
+      "contact": "孙女士",
+      "publish_time": "3天前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:45.986180"
-    },
-    {
-      "title": "lansdowne天车站 无比方便 全新公寓 一房一厅 单身工作或者学生",
-      "link": "https://c.vanpeople.com/zufang/item-3397223.html",
-      "price": "$2,200",
-      "price_unit": "加币/月",
-      "included": "",
-      "location": "列治文",
-      "property_details": [
-        "列治文",
-        "公寓",
-        "1卧",
-        "整租",
-        "1卫",
-        "0den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/15/18/ivZxZkIGoi.JiuKqfNvqkziiWfv6_w300_3cf4.jpg",
-      "has_real_image": true,
-      "contact": "jack",
-      "publish_time": "4小时前",
-      "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:45.986535"
+      "scraped_at": "2025-09-16T06:27:33.164315"
     },
     {
       "title": "Metrotown-地面2房1卫出租",
@@ -304,212 +105,7 @@
       "contact": "陈太",
       "publish_time": "2025/09/10",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:45.986942"
-    },
-    {
-      "title": "二楼向花园套房出租",
-      "link": "https://c.vanpeople.com/zufang/item-3367954.html",
-      "price": "$1,200",
-      "price_unit": "加币/月",
-      "included": "包水, 电, 网, 天然气",
-      "location": "列治文",
-      "property_details": [
-        "列治文",
-        "分租",
-        "独立屋",
-        "独立卫浴"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202506/30/14/vf3iksbX4_.yquzWizuNqfikyzKG_w300_d14d.jpg",
-      "has_real_image": true,
-      "contact": "phoebe",
-      "publish_time": "3天前",
-      "languages": "国语，粤语",
-      "scraped_at": "2025-09-15T22:59:45.987289"
-    },
-    {
-      "title": "烈治文豪宅套房出租",
-      "link": "https://c.vanpeople.com/zufang/item-3188960.html",
-      "price": "$1,400",
-      "price_unit": "加币/月",
-      "included": "包水, 电, 网",
-      "location": "列治文",
-      "property_details": [
-        "列治文",
-        "分租",
-        "独立屋",
-        "独立卫浴"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202403/25/16/JihqVAL_iy.CKzWuJkC4iNCifuiR_w300_824c.jpg",
-      "has_real_image": true,
-      "contact": "Winky",
-      "publish_time": "3天前",
-      "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:45.987632"
-    },
-    {
-      "title": "Dunbar 加19Ave house单间出租近UBC，LB中学",
-      "link": "https://c.vanpeople.com/zufang/item-3396778.html",
-      "price": "$1,250",
-      "price_unit": "加币/月",
-      "included": "包水, 电, 网, 天然气",
-      "location": "温哥华",
-      "property_details": [
-        "温哥华",
-        "分租",
-        "独立屋"
-      ],
-      "image_url": "https://static.vancdn.com/van/public/img/nopic/nopic-small.png",
-      "has_real_image": false,
-      "contact": "sophia",
-      "publish_time": "昨天",
-      "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.987971"
-    },
-    {
-      "title": "温哥华ontario&60th 独立卫浴套间出租",
-      "link": "https://c.vanpeople.com/zufang/item-3391774.html",
-      "price": "$1,400",
-      "price_unit": "加币/月",
-      "included": "包水, 网",
-      "location": "温哥华",
-      "property_details": [
-        "温哥华",
-        "分租",
-        "独立屋"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/02/08/vD42v9wta5.fNyf4WiDKJfuWJvDR_w300_9b62.jpg",
-      "has_real_image": true,
-      "contact": "张先生",
-      "publish_time": "昨天",
-      "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:45.988308"
-    },
-    {
-      "title": "列治文公寓出租 近天车站 有空调",
-      "link": "https://c.vanpeople.com/zufang/item-3395034.html",
-      "price": "$3,100",
-      "price_unit": "加币/月",
-      "included": "包水, 网, 天然气",
-      "location": "列治文",
-      "property_details": [
-        "列治文",
-        "公寓",
-        "整租",
-        "2卧",
-        "2卫",
-        "0den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/09/22/zukfWSgw2-.L4DquDuN4vzyD4DCJ_w300_5c25.jpg",
-      "has_real_image": true,
-      "contact": "Anna",
-      "publish_time": "2025/09/09",
-      "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:45.988666"
-    },
-    {
-      "title": "西区 House 出租--顶级私校学区",
-      "link": "https://c.vanpeople.com/zufang/item-3377848.html",
-      "price": "$5,500",
-      "price_unit": "加币/月",
-      "included": "",
-      "location": "温哥华",
-      "property_details": [
-        "温哥华",
-        "独立屋",
-        "整租",
-        "5卧或更多",
-        "3卫",
-        "0den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202507/29/09/qqToQOSLef.LJKCzNkWu4qKWzLkv_w300_38c1.jpg",
-      "has_real_image": true,
-      "contact": "John",
-      "publish_time": "2025/08/24",
-      "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.989079"
-    },
-    {
-      "title": "列治文西区, 温哥华西区别墅 整租",
-      "link": "https://c.vanpeople.com/zufang/item-3390445.html",
-      "price": "$7,000",
-      "price_unit": "加币/月",
-      "included": "包水, 电, 网, 天然气",
-      "location": "温哥华",
-      "property_details": [
-        "温哥华",
-        "独立屋",
-        "整租",
-        "5卧或更多",
-        "4卫或更多",
-        "1den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202508/29/10/uz0fqgtcX_.4NCDNqLqzfuKNWvkT_w300_edec.jpg",
-      "has_real_image": true,
-      "contact": "rich",
-      "publish_time": "2025/09/05",
-      "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:45.989441"
-    },
-    {
-      "title": "冽冶文Broadmoor 独立出入套房出租",
-      "link": "https://c.vanpeople.com/zufang/item-3334972.html",
-      "price": "$1,600",
-      "price_unit": "加币/月",
-      "included": "包水, 电, 网, 天然气",
-      "location": "列治文",
-      "property_details": [
-        "列治文",
-        "分租",
-        "独立屋",
-        "独立卫浴"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202505/22/06/uu5hR_l8OW.iy4zLy4vNJ4ukqKkz_w300_18ef.png",
-      "has_real_image": true,
-      "contact": "Ellen",
-      "publish_time": "昨天",
-      "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.989928"
-    },
-    {
-      "title": "套房特價（2房1廚1廳）",
-      "link": "https://c.vanpeople.com/zufang/item-3394745.html",
-      "price": "$1,599",
-      "price_unit": "加币/月",
-      "included": "包水, 电, 网",
-      "location": "列治文",
-      "property_details": [
-        "列治文",
-        "独立屋",
-        "整租",
-        "2卧",
-        "1卫",
-        "0den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/09/10/KKnuwKggKY.JiWJfyN4fvkWkCfun_w300_626b.jpg",
-      "has_real_image": true,
-      "contact": "李太",
-      "publish_time": "昨天",
-      "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:45.990365"
-    },
-    {
-      "title": "新装修的一层House独立出入全包$1100",
-      "link": "https://c.vanpeople.com/zufang/item-3395095.html",
-      "price": "$1,100",
-      "price_unit": "加币/月",
-      "included": "包水, 电, 网, 天然气",
-      "location": "列治文",
-      "property_details": [
-        "列治文",
-        "分租",
-        "独立屋"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/10/07/zKRf8gNADn.qLyzvzWCfNkkvzv4c_w300_b832.jpg",
-      "has_real_image": true,
-      "contact": "房东",
-      "publish_time": "2025/09/10",
-      "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.990717"
+      "scraped_at": "2025-09-16T06:27:33.164819"
     },
     {
       "title": "UBC 大學生活圈單房間适合男女学生住房配公用廚房及衛浴價優",
@@ -528,29 +124,7 @@
       "contact": "李小姐",
       "publish_time": "2天前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:45.991068"
-    },
-    {
-      "title": "列治文1房1厅公寓整租，近KPU和Landsdowne天车站  1房1厅1卫",
-      "link": "https://c.vanpeople.com/zufang/item-3395006.html",
-      "price": "$1,950",
-      "price_unit": "加币/月",
-      "included": "包水",
-      "location": "列治文",
-      "property_details": [
-        "列治文",
-        "公寓",
-        "1卧",
-        "整租",
-        "1卫",
-        "0den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/09/20/iitubx6wav.CNqDqiWWq4uuCKfK2_ysANm_w300_bcb7.jpg",
-      "has_real_image": true,
-      "contact": "Jun",
-      "publish_time": "2025/09/10",
-      "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:45.991508"
+      "scraped_at": "2025-09-16T06:27:33.165278"
     },
     {
       "title": "温哥华downtown一室海景公寓",
@@ -572,11 +146,249 @@
       "contact": "ellen",
       "publish_time": "昨天",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:45.991864"
+      "scraped_at": "2025-09-16T06:27:33.165787"
     },
     {
-      "title": "bus直达ubc单房招男生",
-      "link": "https://c.vanpeople.com/zufang/item-3396002.html",
+      "title": "lansdowne天车站 无比方便 全新公寓 一房一厅 单身工作或者学生",
+      "link": "https://c.vanpeople.com/zufang/item-3397223.html",
+      "price": "$2,200",
+      "price_unit": "加币/月",
+      "included": "",
+      "location": "列治文",
+      "property_details": [
+        "列治文",
+        "公寓",
+        "1卧",
+        "整租",
+        "1卫",
+        "0den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202509/15/18/ivZxZkIGoi.JiuKqfNvqkziiWfv6_w300_3cf4.jpg",
+      "has_real_image": true,
+      "contact": "jack",
+      "publish_time": "5小时前",
+      "languages": "国语",
+      "scraped_at": "2025-09-16T06:27:33.166258"
+    },
+    {
+      "title": "独立出入house大套房｜可养猫",
+      "link": "https://c.vanpeople.com/zufang/item-3393349.html",
+      "price": "$1,390",
+      "price_unit": "加币/月",
+      "included": "包水, 电, 网, 天然气",
+      "location": "列治文",
+      "property_details": [
+        "列治文",
+        "1卧",
+        "独立屋",
+        "整租",
+        "1卫",
+        "0den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202509/05/20/qiHDF0ree2.4CK4vf4JWkW4vkuKo_w300_b588.jpg",
+      "has_real_image": true,
+      "contact": "魏先生",
+      "publish_time": "昨天",
+      "languages": "国语",
+      "scraped_at": "2025-09-16T06:27:33.166754"
+    },
+    {
+      "title": "列治文西区, 温哥华西区别墅 整租",
+      "link": "https://c.vanpeople.com/zufang/item-3390445.html",
+      "price": "$7,000",
+      "price_unit": "加币/月",
+      "included": "包水, 电, 网, 天然气",
+      "location": "温哥华",
+      "property_details": [
+        "温哥华",
+        "独立屋",
+        "整租",
+        "5卧或更多",
+        "4卫或更多",
+        "1den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202508/29/10/uz0fqgtcX_.4NCDNqLqzfuKNWvkT_w300_edec.jpg",
+      "has_real_image": true,
+      "contact": "rich",
+      "publish_time": "2025/09/05",
+      "languages": "国语",
+      "scraped_at": "2025-09-16T06:27:33.167236"
+    },
+    {
+      "title": "列治文公寓出租 近天车站 有空调",
+      "link": "https://c.vanpeople.com/zufang/item-3395034.html",
+      "price": "$3,100",
+      "price_unit": "加币/月",
+      "included": "包水, 网, 天然气",
+      "location": "列治文",
+      "property_details": [
+        "列治文",
+        "公寓",
+        "整租",
+        "2卧",
+        "2卫",
+        "0den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202509/09/22/zukfWSgw2-.L4DquDuN4vzyD4DCJ_w300_5c25.jpg",
+      "has_real_image": true,
+      "contact": "Anna",
+      "publish_time": "2025/09/09",
+      "languages": "国语，粤语，英语",
+      "scraped_at": "2025-09-16T06:27:33.167741"
+    },
+    {
+      "title": "Oakridge如新矮层水泥公寓 一房一旦包网家具",
+      "link": "https://c.vanpeople.com/zufang/item-3393368.html",
+      "price": "$2,580",
+      "price_unit": "加币/月",
+      "included": "包水, 网, 天然气",
+      "location": "温哥华",
+      "property_details": [
+        "温哥华",
+        "公寓",
+        "1卧",
+        "整租",
+        "1卫",
+        "1den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202509/05/20/KDBDAmahO3.yzDvDqLvNi4vk4Dkl_w300_c3a4.jpg",
+      "has_real_image": true,
+      "contact": "Jane Jiang",
+      "publish_time": "4天前",
+      "languages": "国语",
+      "scraped_at": "2025-09-16T06:27:33.168223"
+    },
+    {
+      "title": "南素里/白石镇 1年新 一室一厅公寓",
+      "link": "https://c.vanpeople.com/zufang/item-3250931.html",
+      "price": "$1,999",
+      "price_unit": "加币/月",
+      "included": "",
+      "location": "素里",
+      "property_details": [
+        "素里",
+        "公寓",
+        "1卧",
+        "整租",
+        "1卫",
+        "0den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202408/17/19/iqEhsnIunj.NykyNzKKyyyizfCWH_ysANm_w300_f369.jpg",
+      "has_real_image": true,
+      "contact": "Tony",
+      "publish_time": "16小时前",
+      "languages": "国语，英语",
+      "scraped_at": "2025-09-16T06:27:33.168711"
+    },
+    {
+      "title": "西区 House 出租--顶级私校学区",
+      "link": "https://c.vanpeople.com/zufang/item-3377848.html",
+      "price": "$5,500",
+      "price_unit": "加币/月",
+      "included": "",
+      "location": "温哥华",
+      "property_details": [
+        "温哥华",
+        "独立屋",
+        "整租",
+        "5卧或更多",
+        "3卫",
+        "0den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202507/29/09/qqToQOSLef.LJKCzNkWu4qKWzLkv_w300_38c1.jpg",
+      "has_real_image": true,
+      "contact": "John",
+      "publish_time": "2025/08/24",
+      "languages": "国语，英语",
+      "scraped_at": "2025-09-16T06:27:33.169175"
+    },
+    {
+      "title": "套房特價（2房1廚1廳）",
+      "link": "https://c.vanpeople.com/zufang/item-3394745.html",
+      "price": "$1,599",
+      "price_unit": "加币/月",
+      "included": "包水, 电, 网",
+      "location": "列治文",
+      "property_details": [
+        "列治文",
+        "独立屋",
+        "整租",
+        "2卧",
+        "1卫",
+        "0den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202509/09/10/KKnuwKggKY.JiWJfyN4fvkWkCfun_w300_626b.jpg",
+      "has_real_image": true,
+      "contact": "李太",
+      "publish_time": "昨天",
+      "languages": "国语，粤语，英语",
+      "scraped_at": "2025-09-16T06:27:33.169671"
+    },
+    {
+      "title": "列治文1房1厅公寓整租，近KPU和Landsdowne天车站  1房1厅1卫",
+      "link": "https://c.vanpeople.com/zufang/item-3395006.html",
+      "price": "$1,950",
+      "price_unit": "加币/月",
+      "included": "包水",
+      "location": "列治文",
+      "property_details": [
+        "列治文",
+        "公寓",
+        "1卧",
+        "整租",
+        "1卫",
+        "0den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202509/09/20/iitubx6wav.CNqDqiWWq4uuCKfK2_ysANm_w300_bcb7.jpg",
+      "has_real_image": true,
+      "contact": "Jun",
+      "publish_time": "2025/09/10",
+      "languages": "国语，粤语，英语",
+      "scraped_at": "2025-09-16T06:27:33.170157"
+    },
+    {
+      "title": "metrotown地下1室1卫独立出入",
+      "link": "https://c.vanpeople.com/zufang/item-3370022.html",
+      "price": "$1,095",
+      "price_unit": "加币/月",
+      "included": "包水, 电, 网, 天然气",
+      "location": "本拿比",
+      "property_details": [
+        "本拿比",
+        "分租",
+        "独立屋",
+        "独立卫浴"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202507/05/14/Ku5TMLxXyS.iNvqyWyLiKJWqkffs_w300_e524.jpg",
+      "has_real_image": true,
+      "contact": "张女士",
+      "publish_time": "2025/09/08",
+      "languages": "国语",
+      "scraped_at": "2025-09-16T06:27:33.170641"
+    },
+    {
+      "title": "天车站口近机场公寓房瑜伽游泳健美设施齐景美拎包可住6048182698",
+      "link": "https://c.vanpeople.com/zufang/item-3391608.html",
+      "price": "$900",
+      "price_unit": "加币/月",
+      "included": "包水, 电, 网, 天然气",
+      "location": "列治文",
+      "property_details": [
+        "列治文",
+        "公寓",
+        "分租",
+        "独立卫浴"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202509/01/17/zz8oxrEk0P.LJqJqNKNCJCLuCfkx_w300_a5a2.jpg",
+      "has_real_image": true,
+      "contact": "元喜",
+      "publish_time": "8小时前",
+      "languages": "国语，粤语",
+      "scraped_at": "2025-09-16T06:27:33.171109"
+    },
+    {
+      "title": "Dunbar 加19Ave house单间出租近UBC，LB中学",
+      "link": "https://c.vanpeople.com/zufang/item-3396778.html",
       "price": "$1,250",
       "price_unit": "加币/月",
       "included": "包水, 电, 网, 天然气",
@@ -586,12 +398,78 @@
         "分租",
         "独立屋"
       ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/12/13/JKDT5DIDWy.qNvqfNNJyvk4zLCJH_w300_e0be.jpg",
+      "image_url": "https://static.vancdn.com/van/public/img/nopic/nopic-small.png",
+      "has_real_image": false,
+      "contact": "sophia",
+      "publish_time": "昨天",
+      "languages": "国语，英语",
+      "scraped_at": "2025-09-16T06:27:33.171583"
+    },
+    {
+      "title": "Richmond 二号路独立出入一居室出租",
+      "link": "https://c.vanpeople.com/zufang/item-3393949.html",
+      "price": "$1,600",
+      "price_unit": "加币/月",
+      "included": "包水, 电, 天然气",
+      "location": "列治文",
+      "property_details": [
+        "列治文",
+        "1卧",
+        "独立屋",
+        "整租",
+        "1卫",
+        "0den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202509/09/10/KD9ur_x-mS.kKDyfCkLyuyLkvDLv_w300_2306.png",
       "has_real_image": true,
-      "contact": "孙女士",
-      "publish_time": "3天前",
+      "contact": "Helen",
+      "publish_time": "2025/09/10",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:45.992211"
+      "scraped_at": "2025-09-16T06:27:33.172062"
+    },
+    {
+      "title": "Ubc,列治文 1房2房3房公寓拎包入住",
+      "link": "https://c.vanpeople.com/zufang/item-3139989.html",
+      "price": "$4,000",
+      "price_unit": "加币/月",
+      "included": "包水, 电, 网, 天然气",
+      "location": "列治文",
+      "property_details": [
+        "列治文",
+        "公寓",
+        "1卧",
+        "整租",
+        "1卫",
+        "1den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202311/30/13/iu9q8Vq7u3.WLuqNKWukKv4vNNNa_w300_a90a.jpg",
+      "has_real_image": true,
+      "contact": "Lisa",
+      "publish_time": "2025/09/03",
+      "languages": "国语",
+      "scraped_at": "2025-09-16T06:27:33.172559"
+    },
+    {
+      "title": "素里中心一房一厅高级景观公寓出租即可入住",
+      "link": "https://c.vanpeople.com/zufang/item-3358638.html",
+      "price": "$1,720",
+      "price_unit": "加币/月",
+      "included": "",
+      "location": "素里",
+      "property_details": [
+        "素里",
+        "公寓",
+        "1卧",
+        "整租",
+        "1卫",
+        "0den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202506/05/11/JiqzJ6BZIS.Di4JifWDJqyWzJkqk_ysANm_w300_f5d3.jpg",
+      "has_real_image": true,
+      "contact": "诚信房东",
+      "publish_time": "2天前",
+      "languages": "国语",
+      "scraped_at": "2025-09-16T06:27:33.173032"
     },
     {
       "title": "metrotown 2房2卫步行至天车",
@@ -613,27 +491,297 @@
       "contact": "Darla",
       "publish_time": "3天前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.992571"
+      "scraped_at": "2025-09-16T06:27:33.173787"
     },
     {
-      "title": "metrotown地下1室1卫独立出入",
-      "link": "https://c.vanpeople.com/zufang/item-3370022.html",
-      "price": "$1,095",
+      "title": "Metrotown 2BR 空调condo出租",
+      "link": "https://c.vanpeople.com/zufang/item-3393413.html",
+      "price": "$2,950",
       "price_unit": "加币/月",
-      "included": "包水, 电, 网, 天然气",
+      "included": "包水, 天然气",
       "location": "本拿比",
       "property_details": [
         "本拿比",
+        "公寓",
+        "整租",
+        "2卧",
+        "2卫",
+        "0den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202509/05/23/zu7zDEcDg9.uyDzvy4uzzyuikLCA_ysANm_w300_adc1.jpg",
+      "has_real_image": true,
+      "contact": "Zed",
+      "publish_time": "3天前",
+      "languages": "国语，粤语，英语",
+      "scraped_at": "2025-09-16T06:27:33.174589"
+    },
+    {
+      "title": "烈治文豪宅套房出租",
+      "link": "https://c.vanpeople.com/zufang/item-3188960.html",
+      "price": "$1,400",
+      "price_unit": "加币/月",
+      "included": "包水, 电, 网",
+      "location": "列治文",
+      "property_details": [
+        "列治文",
         "分租",
         "独立屋",
         "独立卫浴"
       ],
-      "image_url": "https://thumb.vancdn.com/van/c/202507/05/14/Ku5TMLxXyS.iNvqyWyLiKJWqkffs_w300_e524.jpg",
+      "image_url": "https://thumb.vancdn.com/van/c/202403/25/16/JihqVAL_iy.CKzWuJkC4iNCifuiR_w300_824c.jpg",
       "has_real_image": true,
-      "contact": "张女士",
-      "publish_time": "2025/09/08",
+      "contact": "Winky",
+      "publish_time": "3天前",
+      "languages": "国语，粤语，英语",
+      "scraped_at": "2025-09-16T06:27:33.175077"
+    },
+    {
+      "title": "二楼向花园套房出租",
+      "link": "https://c.vanpeople.com/zufang/item-3367954.html",
+      "price": "$1,200",
+      "price_unit": "加币/月",
+      "included": "包水, 电, 网, 天然气",
+      "location": "列治文",
+      "property_details": [
+        "列治文",
+        "分租",
+        "独立屋",
+        "独立卫浴"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202506/30/14/vf3iksbX4_.yquzWizuNqfikyzKG_w300_d14d.jpg",
+      "has_real_image": true,
+      "contact": "phoebe",
+      "publish_time": "3天前",
+      "languages": "国语，粤语",
+      "scraped_at": "2025-09-16T06:27:33.175568"
+    },
+    {
+      "title": "天车站附近Cambie house二楼单间出租",
+      "link": "https://c.vanpeople.com/zufang/item-3385164.html",
+      "price": "$1,200",
+      "price_unit": "加币/月",
+      "included": "包水, 电, 网, 天然气",
+      "location": "温哥华",
+      "property_details": [
+        "温哥华",
+        "分租",
+        "独立屋"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202508/14/22/zDDvY0-Hre.kkqC44ui4y4WKvDqI_w300_0e04.jpg",
+      "has_real_image": true,
+      "contact": "Sophia",
+      "publish_time": "3天前",
+      "languages": "国语，英语",
+      "scraped_at": "2025-09-16T06:27:33.176025"
+    },
+    {
+      "title": "本拿比商圈Edmonds天车站旁一年新高层",
+      "link": "https://c.vanpeople.com/zufang/item-3391742.html",
+      "price": "$3,000",
+      "price_unit": "加币/月",
+      "included": "包水, 天然气",
+      "location": "本拿比",
+      "property_details": [
+        "本拿比",
+        "公寓",
+        "整租",
+        "2卧",
+        "2卫",
+        "1den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202509/02/00/Kf5oL_e7Yg.uDqqJkukfvDifvJLH_w300_442f.jpg",
+      "has_real_image": true,
+      "contact": "Feng",
+      "publish_time": "3天前",
+      "languages": "国语，英语",
+      "scraped_at": "2025-09-16T06:27:33.176561"
+    },
+    {
+      "title": "4号路➕Granville Townhouse 单间",
+      "link": "https://c.vanpeople.com/zufang/item-3286634.html",
+      "price": "$1,200",
+      "price_unit": "加币/月",
+      "included": "包水, 电, 网, 天然气",
+      "location": "列治文",
+      "property_details": [
+        "列治文",
+        "分租",
+        "连排屋",
+        "独立卫浴"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202411/07/11/uzXxd9NivI.fJqyvCiWqkfkJDNkJ_w300_6c05.jpg",
+      "has_real_image": true,
+      "contact": "John",
+      "publish_time": "刚刚",
+      "languages": "国语，粤语，英语",
+      "scraped_at": "2025-09-16T06:27:33.177019"
+    },
+    {
+      "title": "温哥华西区3卧3卫豪宅后院出租",
+      "link": "https://c.vanpeople.com/zufang/item-3367054.html",
+      "price": "$5,500",
+      "price_unit": "加币/月",
+      "included": "包水, 网",
+      "location": "温哥华",
+      "property_details": [
+        "温哥华",
+        "独立屋",
+        "整租",
+        "3卧",
+        "3卫",
+        "0den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202506/27/20/quvxInlpGJ.yJzquLuiJ4ffu4uCV_w300_7b15.jpg",
+      "has_real_image": true,
+      "contact": "John",
+      "publish_time": "刚刚",
+      "languages": "国语，粤语，英语",
+      "scraped_at": "2025-09-16T06:27:33.177522"
+    },
+    {
+      "title": "素里Park George高级公寓一室一厅招租",
+      "link": "https://c.vanpeople.com/zufang/item-3390496.html",
+      "price": "$2,100",
+      "price_unit": "加币/月",
+      "included": "包水, 天然气",
+      "location": "素里",
+      "property_details": [
+        "素里",
+        "公寓",
+        "1卧",
+        "整租",
+        "1卫",
+        "0den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202508/29/12/iJqf2n8ExU.DkkWCufKKiyCkvJvN_w300_493a.jpg",
+      "has_real_image": true,
+      "contact": "John",
+      "publish_time": "刚刚",
+      "languages": "国语，粤语，英语",
+      "scraped_at": "2025-09-16T06:27:33.178002"
+    },
+    {
+      "title": "南Delta大房间独立厨卫独立出入",
+      "link": "https://c.vanpeople.com/zufang/item-3113515.html",
+      "price": "$1,650",
+      "price_unit": "加币/月",
+      "included": "包水, 电, 网, 天然气",
+      "location": "三角洲",
+      "property_details": [
+        "三角洲",
+        "分租",
+        "独立屋",
+        "独立卫浴"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202401/19/20/iDPT6RU6j-.JvzCLzkkvufCziJCe_ysANm_w300_530b.jpg",
+      "has_real_image": true,
+      "contact": "Summer",
+      "publish_time": "刚刚",
+      "languages": "国语，英语",
+      "scraped_at": "2025-09-16T06:27:33.178484"
+    },
+    {
+      "title": "Concord Brentwood 2房2卫",
+      "link": "https://c.vanpeople.com/zufang/item-3366932.html",
+      "price": "$3,000",
+      "price_unit": "加币/月",
+      "included": "包水, 天然气",
+      "location": "本拿比",
+      "property_details": [
+        "本拿比",
+        "公寓",
+        "整租",
+        "2卧",
+        "2卫",
+        "0den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202506/27/14/zi8h-1Hsp_.zD4i4iNyfuvq4LzqI_w300_a2a5.jpg",
+      "has_real_image": true,
+      "contact": "Nancy",
+      "publish_time": "刚刚",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:45.992937"
+      "scraped_at": "2025-09-16T06:27:33.178979"
+    },
+    {
+      "title": "带空调温西3房联排别墅",
+      "link": "https://c.vanpeople.com/zufang/item-3383930.html",
+      "price": "$5,800",
+      "price_unit": "加币/月",
+      "included": "包水",
+      "location": "温哥华",
+      "property_details": [
+        "温哥华",
+        "整租",
+        "连排屋",
+        "3卧",
+        "3卫",
+        "1den"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202508/11/19/vu7xzj0WKY.CWuyLWkkCCqf4zDDz_w300_e92c.jpg",
+      "has_real_image": true,
+      "contact": "Cannie",
+      "publish_time": "刚刚",
+      "languages": "国语",
+      "scraped_at": "2025-09-16T06:27:33.179471"
+    },
+    {
+      "title": "单房出租，立即入住，只招学生",
+      "link": "https://c.vanpeople.com/zufang/item-3397321.html",
+      "price": "$750",
+      "price_unit": "加币/月",
+      "included": "包水, 网, 天然气",
+      "location": "高贵林",
+      "property_details": [
+        "高贵林",
+        "分租",
+        "独立屋"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202509/15/23/JJExnvvH56.qJLqCfzqvzDLzqfuZ_w300_997a.jpg",
+      "has_real_image": true,
+      "contact": "Wei",
+      "publish_time": "刚刚",
+      "languages": "国语",
+      "scraped_at": "2025-09-16T06:27:33.179924"
+    },
+    {
+      "title": "Metrotown 高层公寓三房",
+      "link": "https://c.vanpeople.com/zufang/item-3280158.html",
+      "price": "$3,500",
+      "price_unit": "加币/月",
+      "included": "",
+      "location": "本拿比",
+      "property_details": [
+        "本拿比",
+        "公寓",
+        "分租",
+        "独立卫浴"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202410/20/07/KJ0u51DKP9.fDqqLvvNLikLfkiWu_w300_800e.jpg",
+      "has_real_image": true,
+      "contact": "Zon",
+      "publish_time": "刚刚",
+      "languages": "国语，粤语，英语",
+      "scraped_at": "2025-09-16T06:27:33.180365"
+    },
+    {
+      "title": "全新Station Square Metrotown高层二房二卫一书房一厅公寓找室友",
+      "link": "https://c.vanpeople.com/zufang/item-3396216.html",
+      "price": "$1,500",
+      "price_unit": "加币/月",
+      "included": "包水, 天然气",
+      "location": "本拿比",
+      "property_details": [
+        "本拿比",
+        "公寓",
+        "分租",
+        "独立卫浴"
+      ],
+      "image_url": "https://thumb.vancdn.com/van/c/202509/12/22/vzoTgPctZJ.qfKN4qLfyDkv4fzkg_w300_15c5.jpg",
+      "has_real_image": true,
+      "contact": "Owner",
+      "publish_time": "刚刚",
+      "languages": "国语",
+      "scraped_at": "2025-09-16T06:27:33.180832"
     },
     {
       "title": "Metrotown &天車站旁1年新公寓主臥室獨立衛浴分租房間已經有床",
@@ -653,7 +801,7 @@
       "contact": "Nick",
       "publish_time": "刚刚",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.993270"
+      "scraped_at": "2025-09-16T06:27:33.181277"
     },
     {
       "title": "本拿比2房2卫公寓次卧出租",
@@ -670,10 +818,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202507/15/13/JD5JbdMDPk.JkyNDDvqKv4iLi4W4_w300_6495.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "EGGG",
       "publish_time": "刚刚",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.993602"
+      "scraped_at": "2025-09-16T06:27:33.181751"
     },
     {
       "title": "本拿比2房2卫公寓出租",
@@ -690,10 +839,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202503/12/16/zqLoM1pYC3.uWiuL4yWWNuKCzNKP_w300_6073.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "ez",
       "publish_time": "刚刚",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.993930"
+      "scraped_at": "2025-09-16T06:27:33.182201"
     },
     {
       "title": "临河2房美景公寓",
@@ -712,10 +862,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/22/iz3xSNzcbM.DfKuWq4qDfffNCLvL_w300_584b.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Willie",
       "publish_time": "刚刚",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.994274"
+      "scraped_at": "2025-09-16T06:27:33.182695"
     },
     {
       "title": "近SFU本那比1卧室出租",
@@ -732,10 +883,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202508/22/20/JKKhraGyt2.yJkuWqWWuyN4CD4uX_w300_2dcd.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Vincent",
       "publish_time": "刚刚",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.994605"
+      "scraped_at": "2025-09-16T06:27:33.183155"
     },
     {
       "title": "近SFU多间卧室出租，即日入住",
@@ -752,10 +904,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202508/31/22/iiuTe3NpgC.zfzJfiNJfzzCJDDCP_ysANm_w300_d8b1.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Vincent",
       "publish_time": "刚刚",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.994933"
+      "scraped_at": "2025-09-16T06:27:33.183635"
     },
     {
       "title": "BURNABY， 两房一卫一厨， 近BCIT",
@@ -774,10 +927,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/10/22/DzIJIij2b0.JCukvqvLqC4iffNLo_w300_82a8.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Gerry Li",
       "publish_time": "刚刚",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:45.995286"
+      "scraped_at": "2025-09-16T06:27:33.184113"
     },
     {
       "title": "列治文 近時代坊 1.5年新 2房1廁",
@@ -796,10 +950,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202508/31/23/fqJT5hMlTu.i4kJKNfNuJiDWWzuu_w300_248c.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Raymond",
       "publish_time": "刚刚",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:45.995641"
+      "scraped_at": "2025-09-16T06:27:33.184596"
     },
     {
       "title": "北素里台湾村近PA/FHSS 单房出租$850独立卫浴",
@@ -819,7 +974,7 @@
       "contact": "bella",
       "publish_time": "刚刚",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.996047"
+      "scraped_at": "2025-09-16T06:27:33.185048"
     },
     {
       "title": "有2套房間獨立衛浴可選共用廚房",
@@ -836,10 +991,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202506/04/19/Jutx1K3VFR.zNiCyKvKv4NkKkqKz_w300_b5f3.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Nick",
       "publish_time": "刚刚",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.996480"
+      "scraped_at": "2025-09-16T06:27:33.185520"
     },
     {
       "title": "近SFU&Brentwood主臥室能住1-2人",
@@ -860,7 +1016,7 @@
       "contact": "Nick",
       "publish_time": "刚刚",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.996904"
+      "scraped_at": "2025-09-16T06:27:33.185968"
     },
     {
       "title": "RMD高层公寓分租-近天车 大统华",
@@ -880,7 +1036,7 @@
       "contact": "Frank",
       "publish_time": "刚刚",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:45.997281"
+      "scraped_at": "2025-09-16T06:27:33.187705"
     },
     {
       "title": "全新两房+书房，两卫 | 朝南安静公寓出租 @ Moody Yards",
@@ -902,7 +1058,7 @@
       "contact": "Dani",
       "publish_time": "刚刚",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.997716"
+      "scraped_at": "2025-09-16T06:27:33.188269"
     },
     {
       "title": "高贵林中心学区楼下一房带独立卫生间重新装修后出租",
@@ -923,7 +1079,7 @@
       "contact": "owner",
       "publish_time": "刚刚",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.998179"
+      "scraped_at": "2025-09-16T06:27:33.188734"
     },
     {
       "title": "列治文River dale独立屋房间出租",
@@ -943,7 +1099,7 @@
       "contact": "房东本人",
       "publish_time": "刚刚",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.998506"
+      "scraped_at": "2025-09-16T06:27:33.189184"
     },
     {
       "title": "温东独立屋单房出租，拎包可入住",
@@ -961,9 +1117,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "林先生",
-      "publish_time": "刚刚",
+      "publish_time": "1小时前",
       "languages": "国语，粤语",
-      "scraped_at": "2025-09-15T22:59:45.998834"
+      "scraped_at": "2025-09-16T06:27:33.189638"
     },
     {
       "title": "本拿比近BCIT和 Moscrop中学，全新半地下2房一卫（basement)独立出入出租。",
@@ -984,9 +1140,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "房东",
-      "publish_time": "刚刚",
+      "publish_time": "1小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:45.999185"
+      "scraped_at": "2025-09-16T06:27:33.190102"
     },
     {
       "title": "寬敞雅房-招 学生/正职 (近 SFU)",
@@ -1005,9 +1161,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "陈 先生",
-      "publish_time": "刚刚",
+      "publish_time": "1小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:45.999519"
+      "scraped_at": "2025-09-16T06:27:33.190562"
     },
     {
       "title": "独立屋带独立卫生间超级大的房间",
@@ -1026,9 +1182,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "金小姐",
-      "publish_time": "刚刚",
+      "publish_time": "1小时前",
       "languages": "国语，粤语",
-      "scraped_at": "2025-09-15T22:59:45.999989"
+      "scraped_at": "2025-09-16T06:27:33.191011"
     },
     {
       "title": "列治文独立屋带卫生间的套房出租",
@@ -1047,9 +1203,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "Jennifer",
-      "publish_time": "刚刚",
+      "publish_time": "1小时前",
       "languages": "国语，粤语",
-      "scraped_at": "2025-09-15T22:59:46.000335"
+      "scraped_at": "2025-09-16T06:27:33.191468"
     },
     {
       "title": "近Okridge一房分租拎包入住全包",
@@ -1067,9 +1223,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "Justin",
-      "publish_time": "刚刚",
+      "publish_time": "1小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:46.001611"
+      "scraped_at": "2025-09-16T06:27:33.191912"
     },
     {
       "title": "Brentwood 3房3卫，1300尺41楼景",
@@ -1090,9 +1246,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "Justin",
-      "publish_time": "刚刚",
+      "publish_time": "1小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:46.001965"
+      "scraped_at": "2025-09-16T06:27:33.192375"
     },
     {
       "title": "出租温哥华Langley Willoughby近西三一大学的独立屋楼上一间宽敞的朝南单间，价格优惠！",
@@ -1111,9 +1267,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "LILY",
-      "publish_time": "刚刚",
+      "publish_time": "1小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:46.002297"
+      "scraped_at": "2025-09-16T06:27:33.192840"
     },
     {
       "title": "北Burnaby 出租宽敞明亮的两居室套房 全新装修",
@@ -1134,9 +1290,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "李小姐",
-      "publish_time": "刚刚",
+      "publish_time": "1小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:46.002705"
+      "scraped_at": "2025-09-16T06:27:33.193301"
     },
     {
       "title": "RMD市中心公寓招女室友",
@@ -1155,9 +1311,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "陈小姐",
-      "publish_time": "刚刚",
+      "publish_time": "1小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:46.003043"
+      "scraped_at": "2025-09-16T06:27:33.193776"
     },
     {
       "title": "Coal Harbour海景2卧2卫1书房公寓出租",
@@ -1178,9 +1334,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "CC",
-      "publish_time": "刚刚",
+      "publish_time": "1小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:46.003398"
+      "scraped_at": "2025-09-16T06:27:33.194234"
     },
     {
       "title": "Metrotown 1房1书房高层出租",
@@ -1203,7 +1359,7 @@
       "contact": "Alison",
       "publish_time": "1小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:46.003749"
+      "scraped_at": "2025-09-16T06:27:33.194709"
     },
     {
       "title": "Metrotown 空调两房两卫10月招租",
@@ -1226,7 +1382,7 @@
       "contact": "Wendy",
       "publish_time": "1小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:46.004097"
+      "scraped_at": "2025-09-16T06:27:33.195167"
     },
     {
       "title": "列治文近3号路联排别墅3房2卫2车位",
@@ -1249,7 +1405,7 @@
       "contact": "li",
       "publish_time": "1小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:46.004446"
+      "scraped_at": "2025-09-16T06:27:33.195639"
     },
     {
       "title": "本那比近购物天车单房独卫套",
@@ -1269,7 +1425,7 @@
       "contact": "Mike",
       "publish_time": "1小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:46.004779"
+      "scraped_at": "2025-09-16T06:27:33.196075"
     },
     {
       "title": "高贵林中心 HOUSE二楼 3房2卫",
@@ -1292,7 +1448,7 @@
       "contact": "房东",
       "publish_time": "1小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:46.005124"
+      "scraped_at": "2025-09-16T06:27:33.196553"
     },
     {
       "title": "素里近台湾村主卧室出租",
@@ -1309,11 +1465,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/11/13/ffiKzr12cI.qWKDuvKkqLKWCWKvg_w300_3bc0.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "Alisa",
       "publish_time": "1小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:46.005468"
+      "scraped_at": "2025-09-16T06:27:34.610440"
     },
     {
       "title": "Richmond一室公寓出租 近capston天车站",
@@ -1332,11 +1487,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/21/if5xP3kRyQ.uWuuDuikqqLWqzkzS_w300_15c8.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "Bettie",
       "publish_time": "1小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:46.005811"
+      "scraped_at": "2025-09-16T06:27:34.610906"
     },
     {
       "title": "列治文ORA八百多尺高层空调公寓长租",
@@ -1355,11 +1509,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/21/qfsxPtWTlA.qCvukzvuJqyWJyDqb_w300_49d0.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "于先生",
       "publish_time": "1小时前",
       "languages": "国语，粤语",
-      "scraped_at": "2025-09-15T22:59:46.006155"
+      "scraped_at": "2025-09-16T06:27:34.611364"
     },
     {
       "title": "列治文Terra Nova独立屋整体出租",
@@ -1378,11 +1531,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/21/JfkxP8lCcS.fyCyqW4qJkJ4KuLKr_w300_f262.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "于先生",
       "publish_time": "1小时前",
       "languages": "国语，粤语",
-      "scraped_at": "2025-09-15T22:59:46.006505"
+      "scraped_at": "2025-09-16T06:27:34.611843"
     },
     {
       "title": "Surrey 全新一房一卫公寓出租",
@@ -1401,11 +1553,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/21/DDsxP2AGSc.kNkuJCKDiiKiDJiiM_w300_7ca7.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "landlord",
       "publish_time": "1小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:46.006858"
+      "scraped_at": "2025-09-16T06:27:34.612298"
     },
     {
       "title": "River District 2房2卫1书房出租",
@@ -1424,11 +1575,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202508/08/22/qqETSLiOzh.z4NquCkKDJCyfvWiN_w300_36a7.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "Abby Wang",
       "publish_time": "1小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:46.007201"
+      "scraped_at": "2025-09-16T06:27:34.612770"
     },
     {
       "title": "列治文市中心Paramount一房一卫一书房",
@@ -1447,11 +1597,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202507/30/09/JvO2__mE4Q.4yzyykKWfyqzyCvNm_w300_11f0.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "Abby",
       "publish_time": "1小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:46.007610"
+      "scraped_at": "2025-09-16T06:27:34.613297"
     },
     {
       "title": "列治文两房两卫带空调公寓出租",
@@ -1470,11 +1619,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202508/19/13/qDeKcrSAe9.yk4JvLyf4LyWzKLkl_w300_5b4e.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "Abby Wang",
       "publish_time": "1小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:46.007955"
+      "scraped_at": "2025-09-16T06:27:34.613771"
     },
     {
       "title": "最新交房CFrichmond center 公寓朝南光猛1室1厅1书房1车位",
@@ -1493,11 +1641,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/21/uKoxPo2E0P.JWyCKWKzk44uLzuLd_ysANm_w300_67df.png",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "屋主",
       "publish_time": "1小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:46.008302"
+      "scraped_at": "2025-09-16T06:27:34.614224"
     },
     {
       "title": "本那比近购物和天车单房独卫套房",
@@ -1517,7 +1664,7 @@
       "contact": "mike",
       "publish_time": "1小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:47.416738"
+      "scraped_at": "2025-09-16T06:27:34.614678"
     },
     {
       "title": "温西PW学区房5卧5卫整体长租",
@@ -1536,10 +1683,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202508/09/22/uKwo7eZC-O.yCCWDLJffqyWvqJKY_w300_2796.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "wil",
       "publish_time": "1小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:47.417152"
+      "scraped_at": "2025-09-16T06:27:34.615137"
     },
     {
       "title": "温西PW学区房5卧5卫整体长租",
@@ -1558,10 +1706,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202507/16/22/DzaTNKoaaY.NCKCfCvzKq4zvWWf4_w300_c22d.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "wil",
       "publish_time": "1小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:47.417555"
+      "scraped_at": "2025-09-16T06:27:34.615603"
     },
     {
       "title": "Burquitlam 两室两卫一书房公寓",
@@ -1580,10 +1729,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/01/23/Kfzo6vtvVJ.vDfNJDfiNKfyJfKyW_ysANm_w300_089f.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Frank",
       "publish_time": "1小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:47.417969"
+      "scraped_at": "2025-09-16T06:27:34.616063"
     },
     {
       "title": "温哥华Downtown地标Butterfly两房两全浴带高档家俱出租",
@@ -1602,10 +1752,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/20/iiCxS7BiNy.C4yNiyqWuJ4fNfNqn_w300_5315.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Nick",
       "publish_time": "刚刚",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:47.418388"
+      "scraped_at": "2025-09-16T06:27:34.616530"
     },
     {
       "title": "列治文副卧分租",
@@ -1622,10 +1773,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/21/ff0x8Jnxgf.iDJWyLN4vLvCkzDWZ_w300_7c5a.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "li",
       "publish_time": "1小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.418771"
+      "scraped_at": "2025-09-16T06:27:34.616964"
     },
     {
       "title": "高贵林中心高层公寓M3出租一房一厅拎包入住",
@@ -1644,10 +1796,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202508/30/15/JDmJk9SQn_.iuNiWk4qJuiiDz4iw_w300_6017.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Queeny",
-      "publish_time": "1小时前",
+      "publish_time": "2小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.419192"
+      "scraped_at": "2025-09-16T06:27:34.617455"
     },
     {
       "title": "Edmond/Highgate 特大單房出租",
@@ -1663,10 +1816,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202508/18/14/zqqJzxwEWu.qi4vkCJzNziKv4zWH_w300_9f9b.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "CK",
-      "publish_time": "1小时前",
+      "publish_time": "2小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:47.419553"
+      "scraped_at": "2025-09-16T06:27:34.617876"
     },
     {
       "title": "近Nanaimo 天车站一房出租",
@@ -1682,10 +1836,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/11/13/zDEKiks696.zkJqCWyu4WWJNzLJJ_ysANm_w300_4370.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Sally",
-      "publish_time": "1小时前",
+      "publish_time": "2小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:47.419917"
+      "scraped_at": "2025-09-16T06:27:34.618293"
     },
     {
       "title": "Richmond 独立出入 1房1卫出租",
@@ -1704,10 +1859,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/21/ifTxdBDoHs.JfqiNfDKfqJ4WWDzJ_ysANm_w300_c2f9.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "YAN YAN",
-      "publish_time": "1小时前",
+      "publish_time": "2小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.420324"
+      "scraped_at": "2025-09-16T06:27:34.618760"
     },
     {
       "title": "5分钟步行Langara 公车直达UBC",
@@ -1725,9 +1881,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "房东",
-      "publish_time": "1小时前",
+      "publish_time": "2小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.420679"
+      "scraped_at": "2025-09-16T06:27:34.619181"
     },
     {
       "title": "列治文 伦敦中学 3房3卫 全新翻新 Townhouse",
@@ -1748,9 +1904,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "Elaine",
-      "publish_time": "1小时前",
+      "publish_time": "2小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:47.421072"
+      "scraped_at": "2025-09-16T06:27:34.620832"
     },
     {
       "title": "Richmond 豪华house分租",
@@ -1769,9 +1925,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "Angela",
-      "publish_time": "1小时前",
+      "publish_time": "2小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.421429"
+      "scraped_at": "2025-09-16T06:27:34.621259"
     },
     {
       "title": "MetroTown 1房1厅(新房,半Base)",
@@ -1794,7 +1950,7 @@
       "contact": "Owner",
       "publish_time": "2小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.421804"
+      "scraped_at": "2025-09-16T06:27:34.621717"
     },
     {
       "title": "Royal oak天車走路4分鐘兩房ㄧ廳",
@@ -1817,7 +1973,7 @@
       "contact": "Erica",
       "publish_time": "2小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:47.422188"
+      "scraped_at": "2025-09-16T06:27:34.622165"
     },
     {
       "title": "北温独立屋一楼纯地上两室一卫出租",
@@ -1840,7 +1996,7 @@
       "contact": "JAMES",
       "publish_time": "2小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:47.422542"
+      "scraped_at": "2025-09-16T06:27:34.622623"
     },
     {
       "title": "Metrotown2b2b空调豪华公寓出租",
@@ -1863,7 +2019,7 @@
       "contact": "房东",
       "publish_time": "2小时前",
       "languages": "国语，粤语",
-      "scraped_at": "2025-09-15T22:59:47.422909"
+      "scraped_at": "2025-09-16T06:27:34.623070"
     },
     {
       "title": "Richmond聯排屋一大單間獨立衛浴找房客",
@@ -1884,7 +2040,7 @@
       "contact": "房东",
       "publish_time": "2小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.423265"
+      "scraped_at": "2025-09-16T06:27:34.623509"
     },
     {
       "title": "本拿比3卧3卫townhouse带车库 Metrotown及 鹿湖附近诚招好租客",
@@ -1907,7 +2063,7 @@
       "contact": "朱女士",
       "publish_time": "1小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:47.423624"
+      "scraped_at": "2025-09-16T06:27:34.623957"
     },
     {
       "title": "列治文别墅二楼 全新大单房 出租",
@@ -1927,7 +2083,7 @@
       "contact": "Guo",
       "publish_time": "2小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.423961"
+      "scraped_at": "2025-09-16T06:27:34.624373"
     },
     {
       "title": "CFRC最划算一房单位出租最后一套",
@@ -1950,7 +2106,7 @@
       "contact": "李先生",
       "publish_time": "2小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:47.425279"
+      "scraped_at": "2025-09-16T06:27:34.624829"
     },
     {
       "title": "南素里三房一厅basement出租",
@@ -1973,7 +2129,7 @@
       "contact": "Keny",
       "publish_time": "2小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:47.425735"
+      "scraped_at": "2025-09-16T06:27:34.625275"
     },
     {
       "title": "Metrotown 3房2卫房出租",
@@ -1996,7 +2152,7 @@
       "contact": "Heather",
       "publish_time": "2小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:47.426069"
+      "scraped_at": "2025-09-16T06:27:34.625729"
     },
     {
       "title": "近sfu 二层明亮宽敞单间",
@@ -2016,7 +2172,7 @@
       "contact": "cici",
       "publish_time": "2小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.426383"
+      "scraped_at": "2025-09-16T06:27:34.626155"
     },
     {
       "title": "Metrotown 两室两卫新公寓出租",
@@ -2039,7 +2195,7 @@
       "contact": "Tim",
       "publish_time": "2小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.426721"
+      "scraped_at": "2025-09-16T06:27:34.626617"
     },
     {
       "title": "南素里South surrey Semi学区 全新两房一卫  出租",
@@ -2057,9 +2213,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "Shirley",
-      "publish_time": "2小时前",
+      "publish_time": "3小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.427027"
+      "scraped_at": "2025-09-16T06:27:34.627031"
     },
     {
       "title": "Richmond Centre 1房1卫长租，包网, 1分钟到天车站",
@@ -2082,7 +2238,7 @@
       "contact": "Tommy",
       "publish_time": "2小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:47.427362"
+      "scraped_at": "2025-09-16T06:27:34.627499"
     },
     {
       "title": "本拿比中心区近丽晶BCIT校区主卧套房招租中",
@@ -2101,9 +2257,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "房东",
-      "publish_time": "2小时前",
+      "publish_time": "3小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.427696"
+      "scraped_at": "2025-09-16T06:27:34.627934"
     },
     {
       "title": "温东平地独立屋一房一厅",
@@ -2124,9 +2280,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "房东",
-      "publish_time": "2小时前",
+      "publish_time": "3小时前",
       "languages": "国语，粤语",
-      "scraped_at": "2025-09-15T22:59:47.428033"
+      "scraped_at": "2025-09-16T06:27:34.628384"
     },
     {
       "title": "独立屋楼上1房,独立厨厠出口",
@@ -2147,9 +2303,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "好房東",
-      "publish_time": "2小时前",
+      "publish_time": "3小时前",
       "languages": "国语，粤语",
-      "scraped_at": "2025-09-15T22:59:47.428371"
+      "scraped_at": "2025-09-16T06:27:34.628850"
     },
     {
       "title": "Metrotown附近公寓2房2卫出租",
@@ -2172,7 +2328,7 @@
       "contact": "Shine",
       "publish_time": "3小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:47.428707"
+      "scraped_at": "2025-09-16T06:27:34.629299"
     },
     {
       "title": "素里中心一室studio出租",
@@ -2191,11 +2347,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/19/uvyxSDAwkh.CvDLJN4DWJzyNkiqU_w300_9c3b.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "Bettie",
       "publish_time": "3小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:47.429422"
+      "scraped_at": "2025-09-16T06:27:36.034649"
     },
     {
       "title": "本拿比Brentwood3房2卫带空调",
@@ -2214,11 +2369,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/19/ii6xYgfrrG.WfqWJ4DzCLkCkiKy5_w300_f97c.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "Davie",
       "publish_time": "3小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.429756"
+      "scraped_at": "2025-09-16T06:27:36.035113"
     },
     {
       "title": "南Delta Ladner 独立屋 整体出租",
@@ -2237,11 +2391,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/19/KvmxYJ5z_X.CWDDzNNiyyNNvKqfS_w300_9df1.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "冯女士",
       "publish_time": "3小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:47.430087"
+      "scraped_at": "2025-09-16T06:27:36.035594"
     },
     {
       "title": "列治文近天车rc2房2卫带家具",
@@ -2260,11 +2413,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/19/JfQxYENhvH.4zyzJzfkJW4zKqzDO_w300_b8aa.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "Jimmy",
       "publish_time": "3小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.430424"
+      "scraped_at": "2025-09-16T06:27:36.036049"
     },
     {
       "title": "素里近首发天车1房1卫带车位",
@@ -2283,11 +2435,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/19/quZxYk3P_X.kfyzqJyNyCLCCkNq1_w300_f146.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "Davie",
       "publish_time": "3小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.430758"
+      "scraped_at": "2025-09-16T06:27:36.036520"
     },
     {
       "title": "列治文沃尔玛商圈2房2卫公寓",
@@ -2306,11 +2457,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/19/vKrxY6hbah.fLkiDLJqJizvuWfN5_w300_5ef1.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "Jimmy",
       "publish_time": "3小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.431089"
+      "scraped_at": "2025-09-16T06:27:36.036975"
     },
     {
       "title": "SFU大学校园内2房2卫公寓无家具",
@@ -2329,11 +2479,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/19/iJdxYdekyM.fKWNkizkWfJJquDzX_w300_0cd7.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "Davie",
       "publish_time": "3小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.431422"
+      "scraped_at": "2025-09-16T06:27:36.037443"
     },
     {
       "title": "Richmond独立屋独立出入一房一卫独立厨房",
@@ -2352,11 +2501,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202508/24/15/uuQxoPakAt.KvCCuNquzJvifuNqB_w300_be5e.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "Rebecca",
       "publish_time": "3小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.431749"
+      "scraped_at": "2025-09-16T06:27:36.037886"
     },
     {
       "title": "西三一学生合租Richmond独立屋独立出入两房一厅一位可宠",
@@ -2375,11 +2523,10 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202508/02/11/DqDzIi8T6R.yfvLDyNDLuNkiLyDh_w300_1cd2.jpg",
       "has_real_image": true,
-      "is_lazy_loaded": true,
       "contact": "Rebecca",
       "publish_time": "3小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:47.432084"
+      "scraped_at": "2025-09-16T06:27:36.038324"
     },
     {
       "title": "列治文獨立屋新单房留学生或单身",
@@ -2398,7 +2545,7 @@
       "contact": "黃先生",
       "publish_time": "3小时前",
       "languages": "国语，粤语",
-      "scraped_at": "2025-09-15T22:59:48.894297"
+      "scraped_at": "2025-09-16T06:27:36.038764"
     },
     {
       "title": "Richmond 后巷屋出租",
@@ -2417,10 +2564,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202508/23/19/JusxSaXUOQ.vkfDiJf4z4NyWiWJ1_w300_946d.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Esther",
       "publish_time": "3小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:48.894742"
+      "scraped_at": "2025-09-16T06:27:36.039216"
     },
     {
       "title": "列治文Capstan天车站1房+书房公寓出租",
@@ -2439,10 +2587,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/19/qK0xYuqPRY.vi4kqJvuK4WqKkWCJ_w300_5b3b.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Vicky",
       "publish_time": "3小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.895171"
+      "scraped_at": "2025-09-16T06:27:36.039668"
     },
     {
       "title": "Richmond 一室一厅出租 可拎包入住",
@@ -2461,10 +2610,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/08/18/quGqPUtoi9.yNyNLqJuJfqNqqqJV_w300_f8b0.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Dan",
       "publish_time": "3小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.895599"
+      "scraped_at": "2025-09-16T06:27:36.040117"
     },
     {
       "title": "列治文市中心 Saba Road 一房柏文",
@@ -2483,10 +2633,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/19/fvyxwOPW9q.uWuLyiuqqkkKqqNLO_w300_71c1.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Winne Wong",
       "publish_time": "3小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.896021"
+      "scraped_at": "2025-09-16T06:27:36.040583"
     },
     {
       "title": "素里中心二室二全卫",
@@ -2503,10 +2654,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/03/16/DfHhQwvcfR.DyiLCqDWffCWDvz4C_ysANm_w300_c4cb.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "房东",
       "publish_time": "3小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.896478"
+      "scraped_at": "2025-09-16T06:27:36.041014"
     },
     {
       "title": "(温哥华)全新西區一房一廳出租",
@@ -2525,10 +2677,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/15/19/iDaxwI1Vk0.iyDDuyuCkJLzJf4vk_w300_2730.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Tony",
       "publish_time": "3小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:48.896930"
+      "scraped_at": "2025-09-16T06:27:36.041477"
     },
     {
       "title": "一房一厅出租",
@@ -2546,9 +2699,9 @@
       "image_url": "https://static.vancdn.com/van/public/img/nopic/nopic-small.png",
       "has_real_image": false,
       "contact": "veronika",
-      "publish_time": "3小时前",
+      "publish_time": "4小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:48.897345"
+      "scraped_at": "2025-09-16T06:27:36.041913"
     },
     {
       "title": "SURREY山水景观高层公寓1房1卫1厅1den1车位1杂物间(包水电网)",
@@ -2567,10 +2720,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202508/20/22/zzbTVH8WKE.4Wfkv4kyiCiuCfzCL_ysANm_w300_17ce.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Ken",
-      "publish_time": "3小时前",
+      "publish_time": "4小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:48.897781"
+      "scraped_at": "2025-09-16T06:27:36.042363"
     },
     {
       "title": "UBC校區附近有公車可以直達UBC，2樓單間跟2人一起合用衛浴廚房",
@@ -2586,10 +2740,11 @@
       ],
       "image_url": "https://thumb.vancdn.com/van/c/202509/12/18/vzWT61a-k7.WKzDKJJqizKiKffvY_w300_a931.jpg",
       "has_real_image": true,
+      "is_lazy_loaded": true,
       "contact": "Nick",
-      "publish_time": "3小时前",
+      "publish_time": "4小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:48.898172"
+      "scraped_at": "2025-09-16T06:27:36.042797"
     },
     {
       "title": "素里天车UD高层1房1卫1书带车位",
@@ -2610,9 +2765,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "Davie",
-      "publish_time": "3小时前",
+      "publish_time": "4小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.898596"
+      "scraped_at": "2025-09-16T06:27:36.043245"
     },
     {
       "title": "温哥华市中心2房2卫1书房",
@@ -2633,9 +2788,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "Jimmy",
-      "publish_time": "3小时前",
+      "publish_time": "4小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.899016"
+      "scraped_at": "2025-09-16T06:27:36.044929"
     },
     {
       "title": "温西2房1卫全新后巷屋近UBC",
@@ -2656,9 +2811,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "Jimmy",
-      "publish_time": "3小时前",
+      "publish_time": "4小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.899451"
+      "scraped_at": "2025-09-16T06:27:36.045377"
     },
     {
       "title": "素里KingGeorge天车1房1卫带车位",
@@ -2679,9 +2834,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "Davie",
-      "publish_time": "3小时前",
+      "publish_time": "4小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.899884"
+      "scraped_at": "2025-09-16T06:27:36.045846"
     },
     {
       "title": "近Metrotown，独立出入温馨一室一厅套间",
@@ -2700,9 +2855,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "Sophie ZHU",
-      "publish_time": "3小时前",
+      "publish_time": "4小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.900286"
+      "scraped_at": "2025-09-16T06:27:36.046266"
     },
     {
       "title": "温西马宝区单间出租",
@@ -2721,9 +2876,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "DAVE",
-      "publish_time": "3小时前",
+      "publish_time": "4小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:48.900699"
+      "scraped_at": "2025-09-16T06:27:36.046712"
     },
     {
       "title": "兰利套房宽敞明亮的两卧一卫套房",
@@ -2743,9 +2898,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "Leo",
-      "publish_time": "3小时前",
+      "publish_time": "4小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.901227"
+      "scraped_at": "2025-09-16T06:27:36.047241"
     },
     {
       "title": "素里Fleetwood独立屋(4房2.5卫)出租，$3980/月",
@@ -2761,9 +2916,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "James",
-      "publish_time": "3小时前",
+      "publish_time": "4小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:48.901602"
+      "scraped_at": "2025-09-16T06:27:36.047659"
     },
     {
       "title": "温西Dunbar近UBC2房一卫出租",
@@ -2784,9 +2939,9 @@
       "has_real_image": true,
       "is_lazy_loaded": true,
       "contact": "Josie",
-      "publish_time": "2小时前",
+      "publish_time": "3小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:48.902033"
+      "scraped_at": "2025-09-16T06:27:36.048103"
     },
     {
       "title": "列治文兩房兩衛 有冷氣 了車位",
@@ -2809,7 +2964,7 @@
       "contact": "Jack",
       "publish_time": "4小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.902456"
+      "scraped_at": "2025-09-16T06:27:36.048554"
     },
     {
       "title": "素里中心Prime高层公寓一房分租",
@@ -2829,7 +2984,7 @@
       "contact": "YZ",
       "publish_time": "4小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.904008"
+      "scraped_at": "2025-09-16T06:27:36.048965"
     },
     {
       "title": "素里中心Prime高层公寓一房分租",
@@ -2849,7 +3004,7 @@
       "contact": "YZ",
       "publish_time": "4小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.904418"
+      "scraped_at": "2025-09-16T06:27:36.049437"
     },
     {
       "title": "温東，1房1厅1书房新装修独立出租",
@@ -2872,7 +3027,7 @@
       "contact": "陈生",
       "publish_time": "4小时前",
       "languages": "国语，粤语",
-      "scraped_at": "2025-09-15T22:59:48.904842"
+      "scraped_at": "2025-09-16T06:27:36.049891"
     },
     {
       "title": "素里中心空调两房两卫整租或分租",
@@ -2895,7 +3050,7 @@
       "contact": "YZ",
       "publish_time": "4小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.905259"
+      "scraped_at": "2025-09-16T06:27:36.050328"
     },
     {
       "title": "转租连排小房间1b1b",
@@ -2915,7 +3070,7 @@
       "contact": "May",
       "publish_time": "4小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.905667"
+      "scraped_at": "2025-09-16T06:27:36.050777"
     },
     {
       "title": "高贵林近SFU独立出入1房1500招租10月1日起",
@@ -2938,7 +3093,7 @@
       "contact": "Eric",
       "publish_time": "4小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:48.906105"
+      "scraped_at": "2025-09-16T06:27:36.051223"
     },
     {
       "title": "近SFU二楼漂亮单间$1000全包近天车和公交站",
@@ -2959,7 +3114,7 @@
       "contact": "Eric",
       "publish_time": "4小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:48.906512"
+      "scraped_at": "2025-09-16T06:27:36.051665"
     },
     {
       "title": "北素里大统华附近独立出入的两室一厅",
@@ -2982,7 +3137,7 @@
       "contact": "Ava",
       "publish_time": "4小时前",
       "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.906944"
+      "scraped_at": "2025-09-16T06:27:36.052109"
     },
     {
       "title": "列治文中心位置城市屋3房2卫",
@@ -3005,7 +3160,7 @@
       "contact": "Daniel",
       "publish_time": "4小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:48.907367"
+      "scraped_at": "2025-09-16T06:27:36.052577"
     },
     {
       "title": "列治文独立屋独立出入2房单位",
@@ -3028,7 +3183,7 @@
       "contact": "Daniel",
       "publish_time": "4小时前",
       "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:48.907809"
+      "scraped_at": "2025-09-16T06:27:36.053026"
     },
     {
       "title": "近UBC罗宾中学旁2室1大厅 1书房1卫一层独立出入",
@@ -3051,202 +3206,7 @@
       "contact": "CC",
       "publish_time": "4小时前",
       "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:48.908257"
-    },
-    {
-      "title": "Tsawwassen 1房1卫 带高档家具",
-      "link": "https://c.vanpeople.com/zufang/item-3342380.html",
-      "price": "$2,100",
-      "price_unit": "加币/月",
-      "included": "包水",
-      "property_details": [
-        "其它",
-        "1卧",
-        "整租",
-        "后巷屋",
-        "1卫",
-        "0den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202504/20/16/qKDzgZ1FIW.DuqzDWfNKzfifqyia_w300_d625.jpg",
-      "has_real_image": true,
-      "is_lazy_loaded": true,
-      "contact": "CC",
-      "publish_time": "4小时前",
-      "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:48.908802"
-    },
-    {
-      "title": "温哥华Joyce 附近1房1卫朝南公寓出租",
-      "link": "https://c.vanpeople.com/zufang/item-3390087.html",
-      "price": "$2,000",
-      "price_unit": "加币/月",
-      "included": "包水",
-      "location": "温哥华",
-      "property_details": [
-        "温哥华",
-        "公寓",
-        "1卧",
-        "整租",
-        "1卫",
-        "0den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202508/28/09/qKdqOKtauV.4KkWifivJWDkNLCv5_w300_f875.jpg",
-      "has_real_image": true,
-      "is_lazy_loaded": true,
-      "contact": "CC",
-      "publish_time": "4小时前",
-      "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:48.909242"
-    },
-    {
-      "title": "房屋寻合租",
-      "link": "https://c.vanpeople.com/zufang/item-3397226.html",
-      "price": "$1,000",
-      "price_unit": "加币/月",
-      "included": "包水, 电, 网, 天然气",
-      "location": "列治文",
-      "property_details": [
-        "列治文",
-        "分租",
-        "独立屋"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/15/18/uK0xBf_lMJ.ffLJffNWkfvqffiiI_w300_1c0c.jpg",
-      "has_real_image": true,
-      "is_lazy_loaded": true,
-      "contact": "RED",
-      "publish_time": "4小时前",
-      "languages": "国语",
-      "scraped_at": "2025-09-15T22:59:48.909646"
-    },
-    {
-      "title": "Dunbar独立屋出租25号车直达ubc 单房",
-      "link": "https://c.vanpeople.com/zufang/item-3344714.html",
-      "price": "$700",
-      "price_unit": "加币/月",
-      "included": "包水, 网",
-      "location": "温哥华",
-      "property_details": [
-        "温哥华",
-        "分租",
-        "独立屋"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202504/27/11/ufQoZwyrH-.fWC4WiDfyuiiiNLvH_w300_870d.jpg",
-      "has_real_image": true,
-      "is_lazy_loaded": true,
-      "contact": "Peter",
-      "publish_time": "4小时前",
-      "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:48.910046"
-    },
-    {
-      "title": "列治文独立出入大套间 独立卫生间厨房洗衣干衣 带车位拎包入住",
-      "link": "https://c.vanpeople.com/zufang/item-3397225.html",
-      "price": "$1,750",
-      "price_unit": "加币/月",
-      "included": "包水, 电, 网, 天然气",
-      "location": "列治文",
-      "property_details": [
-        "列治文",
-        "分租",
-        "独立屋",
-        "独立卫浴"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/15/18/KzGxBquX_5.WKLJuDz4kv4CfiNvx_w300_75ce.jpg",
-      "has_real_image": true,
-      "is_lazy_loaded": true,
-      "contact": "Cindy",
-      "publish_time": "4小时前",
-      "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:48.910457"
-    },
-    {
-      "title": "出租河景一房一厅高层公寓，近天车站，超市，Douglas college",
-      "link": "https://c.vanpeople.com/zufang/item-2324917.html",
-      "price": "$1,900",
-      "price_unit": "加币/月",
-      "included": "包水, 天然气",
-      "location": "新西敏",
-      "property_details": [
-        "新西敏",
-        "公寓",
-        "1卧",
-        "整租",
-        "1卫",
-        "0den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/201910/zqDvDfqfqqDffvWWGaIv1zZjG0_w300_3911.jpg",
-      "has_real_image": true,
-      "is_lazy_loaded": true,
-      "contact": "房东",
-      "publish_time": "4小时前",
-      "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:48.910893"
-    },
-    {
-      "title": "One Bedroom Condo For Rent",
-      "link": "https://c.vanpeople.com/zufang/item-3397222.html",
-      "price": "$1,700",
-      "price_unit": "加币/月",
-      "included": "包水, 天然气",
-      "location": "素里",
-      "property_details": [
-        "素里",
-        "公寓",
-        "1卧",
-        "整租",
-        "1卫",
-        "1den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202509/15/18/zqVxZ7E3Iz.viKLyCJyfDyNLiWCs_w300_28bc.jpg",
-      "has_real_image": true,
-      "is_lazy_loaded": true,
-      "contact": "Cathy",
-      "publish_time": "4小时前",
-      "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:48.911335"
-    },
-    {
-      "title": "列治文中心大单房出租",
-      "link": "https://c.vanpeople.com/zufang/item-3376152.html",
-      "price": "$800",
-      "price_unit": "加币/月",
-      "included": "包水, 电, 网, 天然气",
-      "location": "列治文",
-      "property_details": [
-        "列治文",
-        "分租",
-        "独立屋"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202507/22/13/vixvf7yP0D.4yiLfiyNDkviWWDDH_w300_bd44.jpg",
-      "has_real_image": true,
-      "is_lazy_loaded": true,
-      "contact": "房东",
-      "publish_time": "4小时前",
-      "languages": "国语，粤语，英语",
-      "scraped_at": "2025-09-15T22:59:48.911738"
-    },
-    {
-      "title": "温哥华downtown一房公寓带车位出租",
-      "link": "https://c.vanpeople.com/zufang/item-2393162.html",
-      "price": "$2,500",
-      "price_unit": "加币/月",
-      "included": "包水",
-      "location": "温哥华",
-      "property_details": [
-        "温哥华",
-        "公寓",
-        "1卧",
-        "整租",
-        "1卫",
-        "0den"
-      ],
-      "image_url": "https://thumb.vancdn.com/van/c/202002/NuLkKLNuCWyz4NLukNqWDziJKiNJffzv_w300_f28f.JPG",
-      "has_real_image": true,
-      "is_lazy_loaded": true,
-      "contact": "wo",
-      "publish_time": "4小时前",
-      "languages": "国语，英语",
-      "scraped_at": "2025-09-15T22:59:48.912176"
+      "scraped_at": "2025-09-16T06:27:36.053502"
     }
   ]
 }
