@@ -1,0 +1,1808 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>温哥华租房_合租 - 人在温哥华网 VanPeople.com</title>
+    <meta name="keywords" content="温哥华租房,温哥华合租"/>
+    <meta name="description" content="温哥华租房、温哥华合租分类信息广告服务，尽在人在温哥华网 VanPeople.com，即可访问网站免费发布属于您自己的分类信息吧！"/>
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://c.vanpeople.com/m/zufang/"/>
+    <link type="text/css" rel="stylesheet" href="https://static.vancdn.com/van/index/v1/pc/css/global.css?v=52" />
+<link type="text/css" rel="stylesheet" href="https://static.vancdn.com/public/js/jquery/plugins/ion.rangeSlider/css/ion.rangeSlider.min.css?v=52" />
+<link type="text/css" rel="stylesheet" href="https://static.vancdn.com/van/c/v1/pc/css/all.css?v=52" />
+    <script src="https://static.vancdn.com/public/js/vendor/device.js/device.js-0.2.7.min.js"></script>
+<script>if(device.mobile()){window.location.href=window.location.href.replace(location.host,location.host+"/m");}</script></head>
+<body>
+<div class="header-fixed-top-empty"></div>
+<header class="header">
+        <div class="common-top-nav">
+        <div class="w1180">
+            <ul class="menu-nav">
+                <li class="home"><a href="https://www.vanpeople.com/">首页</a></li>
+                <li><a href="https://info.vanpeople.com/">新闻资讯</a></li>
+                <li class="on"><a href="https://c.vanpeople.com/">分类广告</a></li>
+                <li><a href="https://c.vanpeople.com/yellowpage.html">本地服务</a></li>
+                <li><a href="https://dp.vanpeople.com/">大温点评</a></li>
+              <li><a href="https://forum.vanpeople.com/portal.php">社区论坛</a></li>
+              <li><a href="https://www.vanpeople.com/space/space.php?do=home&view=all">空间</a></li>
+            </ul>
+            <div class="login-box fr">
+                                    <div class="login">
+                        <a href="javascript:" onclick="window.location.href='https://forum.vanpeople.com/member.php?mod=logging&action=login&reurl='+location.href;"><span>登入</span></a>
+                    </div>
+                                <div class="swap"><a id="translatelink" onclick="changeLan()" target="_self"><span>繁体</span></a></div>
+                <div class="phone"><a href="https://www.vanpeople.com/app_download/" target="_blank"><span>手机端下载</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var dianji_lan = 1;
+
+        function changeLan() {
+            setTimeout(function (){
+                var rotatestr = 'transform: rotate(' + 180 * (dianji_lan % 2) + 'deg); transition: transform 1s ease 0s;';
+                $('head').append('<style>.swap::before{' + rotatestr + '}</style>');
+                dianji_lan++;
+            },50);
+        }
+    </script>
+    <div class="logo-main detail-logo-main">
+        <div class="w1180 pos_relative">
+            <div class="logo"><a href="/"></a></div>
+            <div class="search-bar fl">
+                <div class="search-main">
+                    <div class="category fl" id="category">
+                        <div class="search-title fl">
+                            <div class="search-choose-class">
+                                <span data-id="0">全部</span><i></i>
+                            </div>
+                            <ul class="search-item" id="search-item">
+                                <li data-id="0"><a href="javascript:" title="全部">全部</a></li>
+                                <li data-id="4"><a href="javascript:" title="买卖">买卖</a></li>
+                                <li data-id="1"><a href="javascript:" title="房屋">房屋</a></li>
+                                <li data-id="60"><a href="javascript:" title="求职招聘">求职招聘</a></li>
+                                <li data-id="31"><a href="javascript:" title="服务">服务</a></li>
+                                <li data-id="100"><a href="javascript:" title="其他">其他</a></li>
+                            </ul>
+                        </div>
+                        <input type="search" class="search" id="keywords" autocomplete="off" value="" placeholder="搜索房屋/物品买卖/商家">
+                        <input name="search" type="button" id="search_btn" class="search-button fr" value="搜索">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="publish">
+                    <a href="javascript:" id="show_publish_btn" class="btn_shadow green-bg-btn">发布广告</a>
+                    <a href="https://my.vanpeople.com/c/ad/freead.html" target="_blank" class="btn_shadow gray-btn">管理广告</a>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</header>
+<div class="dialog_publish" id="dialog_publish" style="display: none;">
+    <div class="dialog_publish_content">
+        <div class="dialog_publish_model">
+            <div class="dialog_publish_close" id="close_publish_dialog"><i></i></div>
+            <h3>选择您所要发布的广告类型</h3>
+            <div class="publish_content" id="goto_publish">
+                <a class="publish_box fl free_ad">
+                    <h3>免费广告</h3>
+                    <p>如：招聘、出租、转租、物品交易、互助、及交友征婚等。</p>
+                </a> <a class="publish_box fr paid_ad">
+                    <h3>本地服务</h3>
+                    <p>如：各类本地生活、商务、家政、宠物、装修、留学移民等服务。</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://www.vanpeople.com/js/c/searchAutoKeywordsObj.js"></script>
+<script src="https://static.vancdn.com/van/c/v1/public/js/searchAutoKeywords.js"></script>
+<!-- <script src="http://static.vancdn.cn/van/c/v1/public/js/searchAutoKeywords.js"></script> -->
+<div class="main w1180">
+    <ul class="list-banner"><li><a href="https://c.vanpeople.com/jingji/item-2890941.html" target="_blank"><img class="lazy" src="https://www.vanpeople.com/gp/202502/24/2413255856560400nTHfyRb4fh.jpg" title="住宅商业物管，地产买卖" alt="住宅商业物管，地产买卖"/></a></li><li><a href="http://c.vanpeople.com/jingji/item-3239135.html" target="_blank"><img class="lazy" src="https://www.vanpeople.com/gp/202509/03/0315122557635900olJp0Eqj3P.jpg" title="大温地产金牌代理，国粤英一对一服务" alt="大温地产金牌代理，国粤英一对一服务"/></a></li></ul>    <div class="crumb">
+        <a href="/">分类广告</a>&nbsp;&gt;&nbsp;<a href="/fwxinxi/">房屋信息</a>&nbsp;&gt;&nbsp;<a href="/zufang/">租房/合租</a>    </div>
+    <div class="m-l">
+        <div class="main-bottom-l" style="padding-top:0px;">
+            <div class="category-list" id="category_list">
+                <div class="section-1">
+                    <div class="cat-with-arrow">
+                        <ul>
+                            <li class="active"><a href="/fwxinxi/" >房产物业</a> <span class="select-icon"></span></li><li ><a href="/qzzhaopin/" >求职招聘</a> <span class="select-icon"></span></li><li ><a href="/wpmaimai/" >物品买卖</a> <span class="select-icon"></span></li><li ><a href="/che/" >汽车相关</a> <span class="select-icon"></span></li><li ><a href="/qtxinxi/" >交友互助</a> <span class="select-icon"></span></li>                        </ul>
+                    </div>
+                    <div class="sub-cat">
+                        <div class="sub-cat-list sub-cat-0" style="display:block"><a href="/fwxinxi/" >全部</a><a href="/zufang/" class="active">租房/合租</a><a href="/qiuzu/" >房屋求租</a><a href="/bgshangpu/" >商业租赁</a><a href="/cangku/" >车位/仓库</a><a href="/dcchushou/" >地产出售</a><a href="/tudinongdi/" >土地/农地转让</a><a href="/qiugoudc/" >地产求购</a><a href="/shengyi/" >生意转让</a><a href="/lhzhuanrang/" >楼花转让</a><a href="/lhyushou/" >楼花预售</a></div><div class="sub-cat-list sub-cat-1" ><a href="/qzzhaopin/" >全部</a><a href="/canyin/" >餐饮行业</a><a href="/baomu/" >保姆看护</a><a href="/jigong/" >普工技工</a><a href="/siji/" >司机</a><a href="/it/" >IT/互联网</a><a href="/baojie/" >保洁清洁</a><a href="/jiaoyu/" >教育培训</a><a href="/xiaoshou/" >销售客服</a><a href="/qtgongzuo/" >其他工作</a><a href="/caihui/" >金融财会</a><a href="/wenan/" >文案助理</a><a href="/meironghuli/" >美容护理</a><a href="/wuliu/" >仓储物流</a><a href="/huli/" >医疗护理</a><a href="/renshi/" >人事行政</a><a href="/sheji/" >美工设计</a><a href="/shichang/" >市场营销</a><a href="/xzzhiwei/" >校招职位</a><a href="/zhiyuanzhe/" >义工/志愿者</a><a href="/qiuzhi/" >求职</a></div><div class="sub-cat-list sub-cat-2" ><a href="/wpmaimai/" >全部</a><a href="/dnpeijian/" >电脑及配件</a><a href="/dianqi/" >家用电器</a><a href="/shouji/" >手机及配件</a><a href="/cheziyouting/" >自行车/摩托车/游艇</a><a href="/shuma/" >数码产品</a><a href="/youxi/" >游戏装备</a><a href="/bgshebei/" >办公/设备</a><a href="/gongju/" >建材/工具</a><a href="/jiaju/" >家具家居</a><a href="/shuji/" >书籍课本</a><a href="/zhiwu/" >花草植物</a><a href="/shoucang/" >艺术收藏</a><a href="/fushi/" >服饰箱包/鞋/化妆品</a><a href="/yueqi/" >乐器</a><a href="/chongwuzhoubian/" >宠物/周边</a><a href="/piaowu/" >票务/礼卡</a><a href="/muying/" >母婴/儿童/玩具</a><a href="/shipin/" >食品/海农产品</a><a href="/yundong/" >休闲运动</a><a href="/shechipin/" >手表/首饰/奢侈品</a><a href="/weishang/" >微商商品</a><a href="/qitawupin/" >其他物品</a><a href="/qiugouwp/" >求购/免费</a></div><div class="sub-cat-list sub-cat-3" ><a href="/che/" >全部</a><a href="/esqiche/" >二手汽车</a><a href="/qcpeijian/" >汽车配件</a><a href="/lease/" >转lease</a><a href="/ppxinche/" >品牌新车</a><a href="/qichezulin/" >汽车短租</a></div><div class="sub-cat-list sub-cat-4" ><a href="/qtxinxi/" >全部</a><a href="/daiwu/" >回国带物</a><a href="/waibi/" >外币兑换</a><a href="/fuwu/" >寻求服务</a><a href="/tongxianghui/" >同乡会</a><a href="/jieban/" >交友征婚</a><a href="/pinche/" >结伴拼车</a><a href="/xunzhao/" >寻人寻物</a><a href="/qtgrgg/" >其他个人广告</a></div>                    </div>
+                </div>
+                <div class="section-2" id="chooseTags">
+                    <select><option>生活家政</option><optgroup label="短租旅馆/学生寄宿"><option value="/lvguan/">短租旅馆</option><option value="/jisu/">学生寄宿</option></optgroup><optgroup label="清洁/地毯/垃圾"><option value="/qingjie/">室内清洁</option><option value="/qinglilaji/">清理垃圾</option><option value="/shiwaiqingjie/">室外清洁</option></optgroup><optgroup label="月子/托儿/保姆"><option value="/tuoer/">月嫂月子餐</option><option value="/jiazheng/">保姆家政</option><option value="/youjiao/">幼教托儿</option></optgroup><optgroup label="摄影视频/美妆/婚庆"><option value="/sheyingshexiang/">摄影摄像</option><option value="/hszulin/">婚纱租赁</option><option value="/hlcehua/">婚礼策划</option><option value="/genzhuang/">化妆跟妆</option></optgroup><optgroup label="餐饮美食/外卖私厨"><option value="/sichu/">私厨美食</option><option value="/waimai/">外卖送餐</option><option value="/meishi/">美食餐厅</option></optgroup></select><select><option>装修维护</option><optgroup label="水暖电工/通渠/维修"><option value="/shuinuan/">水暖电气</option><option value="/tongqu/">通渠</option><option value="/jjweixiu/">家居维修</option></optgroup><optgroup label="验屋/监控/开锁服务"><option value="/kaisuo/">紧急开锁</option><option value="/yanwu/">验屋服务</option><option value="/jiankong/">防盗监控</option></optgroup><optgroup label="建筑装修/新屋承建"><option value="/snzhuangxiu/">室内装修</option><option value="/diban/">屋顶水槽</option><option value="/youqi/">油漆粉刷</option><option value="/menchuang/">门窗围栏</option><option value="/snsheji/">室内设计</option><option value="/jianshang/">持牌建商</option><option value="/dibanditan/">地板地毯</option></optgroup><optgroup label="家居家具/电器/建材"><option value="/jjzhuanmai/">家具专卖</option><option value="/gudong/">艺术收藏</option><option value="/jiancai/">专业建材</option></optgroup><optgroup label="园艺/除虫"><option value="/yuanyi/">园艺</option><option value="/chuchong/">除虫除鼠</option></optgroup></select><select><option>搬运物流</option><optgroup label="搬家搬运/运输"><option value="/banyun/">搬家搬运</option><option value="/gangqin/">精搬钢琴</option></optgroup><optgroup label="物流快递/报关/仓储"><option value="/kuaidi/">快递服务</option><option value="/cangchu/">仓库仓储</option><option value="/yunshu/">物流运输</option></optgroup></select><select><option>车辆出行</option><optgroup label="接送/代驾/周边游"><option value="/jiesong/">机场接送</option><option value="/zhoubianyou/">周边游</option><option value="/daijia/">酒后代驾</option><option value="/baoche/">外出包车</option></optgroup><optgroup label="车行经销商/租车/运车"><option value="/chehang/">车行4S店</option><option value="/zuche/">租车服务</option><option value="/yunche/">运车回国</option></optgroup><optgroup label="驾照教练/练车/路试/考牌"><option value="/lianchekaopai/">练车考牌</option><option value="/shangyejiazhao/">商业驾照</option><option value="/baoxian/">汽车保险</option></optgroup><optgroup label="汽车维修/拖车/改装/保养"><option value="/qcweixiu/">维修保养</option><option value="/tuoche/">拖车服务</option><option value="/qcfangdao/">汽车防盗</option><option value="/gaizhuang/">改装贴膜</option></optgroup></select><select><option>移民留学</option><optgroup label="移民/留学/签证"><option value="/liuxueyimin/">留学移民</option></optgroup><optgroup label="公立/私立院校"><option value="/zhongxiaoxue/">中小学</option><option value="/geleiyuanxiao/">大学院校</option></optgroup></select><select><option>教育培训</option><optgroup label="语言辅导"><option value="/yuyanfudao/">雅思/托福</option><option value="/qitayuzhong/">其他语种</option></optgroup><optgroup label="辅导/补习/培训"><option value="/buxixuexiao/">补习学校</option><option value="/jiajiao/">私人家教</option><option value="/rujifudao/">论文辅导</option><option value="/zhiyepeixun/">职业培训</option></optgroup><optgroup label="音乐/舞蹈培训"><option value="/yinyue/">音乐兴趣班</option><option value="/wudao/">舞蹈兴趣班</option><option value="/zyyueqi/">专业乐器</option></optgroup><optgroup label="美术/绘画/培训"><option value="/huihua/">绘画/升学</option><option value="/shufa/">书法班</option></optgroup></select><select><option>地产服务</option><optgroup label="地产/贷款/物业经纪"><option value="/anjie/">贷款按揭</option><option value="/jingji/">房产经纪</option><option value="/wuye/">物业管理</option><option value="/jiajumeihua/">家居美化</option><option value="/baoxian/">房屋保险</option></optgroup></select><select><option>商务服务</option><optgroup label="手机/网络/电视数码"><option value="/dnweixiu/">电器数码</option><option value="/sjjihua/">手机计划</option><option value="/wangluo/">网络/电视</option></optgroup><optgroup label="网站建设/设计印刷"><option value="/yinshua/">设计印刷</option><option value="/wangzhan/">网站建设</option><option value="/ruanjian/">软件开发</option><option value="/pingmian/">平面设计</option></optgroup><optgroup label="旅游/机票/出海"><option value="/jipiao/">旅游机票</option><option value="/dbqianzheng/">代办签证</option><option value="/chuhai/">游艇出海</option><option value="/baoxian/">旅游保险</option></optgroup><optgroup label="汇款换汇/金融/数字货币"><option value="/huikuan/">汇款换汇</option><option value="/daikuan/">各类贷款</option><option value="/baoxianxiang/">数字货币</option></optgroup><optgroup label="会计税务"><option value="/tuishui/">报税退税</option><option value="/sybaoxian/">政府补助申请</option></optgroup><optgroup label="理财投资/各类保险"><option value="/touzilicai/">投资理财</option><option value="/baoxian/">各类保险</option></optgroup><optgroup label="法律索赔/告票/公证翻译"><option value="/lvshi/">律师事务所</option><option value="/gongzheng/">公证认证翻译</option></optgroup><optgroup label="电脑手机维修/生意设备"><option value="/dnzuzhuang/">电脑维修组装</option><option value="/sjweixiu/">手机维修</option><option value="/dianzishebei/">生意电子设备</option></optgroup></select><select><option>健康生活</option><optgroup label="瑜伽/健身/运动培训"><option value="/yujia/">瑜伽塑身</option><option value="/jianshen/">健身搏击</option><option value="/qiulei/">球类培训</option><option value="/huaxue/">滑雪滑冰</option><option value="/shuishang/">户外运动</option></optgroup><optgroup label="医疗诊所/中医/牙医"><option value="/zhensuo/">医疗诊所</option><option value="/yayi/">牙医诊所</option><option value="/tingli/">听力诊所</option><option value="/zhenjiu/">针灸医师</option><option value="/yanguang/">验光配镜</option></optgroup><optgroup label="推拿按摩/足疗保健"><option value="/anmo/">推拿按摩</option><option value="/zuliao/">足疗保健</option></optgroup></select><select><option>丽人医美</option><optgroup label="医美/美容/美发/美甲"><option value="/meirong/">医学美容</option><option value="/pifu/">皮肤护理</option><option value="/meijie/">美睫纹绣</option><option value="/meifa/">美甲美发</option></optgroup></select><select><option>其他分类</option><optgroup label="风水/命理/福地"><option value="/zhanbu/">占卜/风水</option><option value="/fopai/">佛牌</option><option value="/fudi/">风水福地</option></optgroup><optgroup label="鲜花/保健品/特产"><option value="/jingpindian/">精品店</option><option value="/xianhua/">鲜花植物</option><option value="/baojianpin/">保健品</option><option value="/techan/">食品特产</option></optgroup><optgroup label="宠物买卖/用品 "><option value="/chongwumaimai/">宠物买卖</option><option value="/chongwuyongpin/">宠物用品</option></optgroup><optgroup label="宠物美容/寄养/宠物医院"><option value="/cwmeirong/">宠物美容</option><option value="/cwyiyuan/">宠物医院</option><option value="/cwjiyang/">宠物寄养训练</option></optgroup><optgroup label="成人娱乐/成人用品"><option value="/cryule/">成人娱乐</option><option value="/crshangpin/">成人商店</option><option value="/bocai/">娱乐博彩</option></optgroup></select>                </div>
+                <div class="clear"></div>
+            </div>
+                            <div class="screen_list" id="screen_list">
+                    <!--            <div class="w1180">-->
+                    <ul class="screen_ul ">
+                        <li class="screen_li"><div class="type_block"><span class="type_name">房屋类型</span></div><div class="child_block checkbox" data-type="checkbox"><ul data-pid="32"><li class="child_li" data-id="35" data-pid="32"><label><p>公寓</p></label></li><li class="child_li" data-id="33" data-pid="32"><label><p>独立屋</p></label></li><li class="child_li" data-id="34" data-pid="32"><label><p>连排屋</p></label></li><li class="child_li" data-id="36" data-pid="32"><label><p>后巷屋</p></label></li><div class="clear"></div></ul></div></li></li><li class="screen_li"><div class="type_block"><span class="type_name">出租形式</span></div><div class="child_block radio rental_form"><ul><li class="child_li"  data-id="40" data-pid="39">分租</li><li class="child_li"  data-id="42" data-pid="39">整租</li></ul></div></li><li class="screen_li"><div class="type_block"><span class="type_name">月租价格</span></div>                                <div class="child_block range price " data-type="range" data-form="price" data-min="1" data-max="4000">
+                                    <div class="range_block" data-pid="price">
+                                        <h3>月租价格</h3>
+                                        <div class="pricebar">
+                                            <input type="text" id="price_range"/>
+                                            <div class="range_label">
+                                                <div class="start">$1</div>
+                                                <div class="end">$4,000+</div>
+                                            </div>
+                                        </div>
+                                        <div class="range_input" id="price_range_input">
+                                            <i>$</i>                                            <input type="text" class="start_range" value="1" data-val="1" placeholder="1">
+                                            <span></span>
+                                            <i class="end_prefix">$</i>                                            <input type="text" class="end_range" value="4,000+" data-val="4000" placeholder="4000">
+                                        </div>
+                                        <div class="clear"></div>
+                                        <div class="btn_block">
+                                            <a href="javascript:" class="reset_btn">重置</a>
+                                            <a href="javascript:" class="confirm_btn">确认</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                </li><li class="screen_li"><div class="type_block"><span class="type_name">卧室数量</span></div><div class="child_block radio rooms_num"><ul><li class="child_li"  data-id="56" data-pid="55">1卧+</li><li class="child_li"  data-id="57" data-pid="55">2卧+</li><li class="child_li"  data-id="58" data-pid="55">3卧+</li><li class="child_li"  data-id="59" data-pid="55">4卧+</li><li class="child_li"  data-id="60" data-pid="55">5卧+</li></ul></div></li><li class="screen_li"><div class="type_block"><span class="type_name">租金包含</span></div><div class="child_block checkbox" data-type="checkbox"><ul data-pid="43"><li class="child_li" data-id="44" data-pid="43"><label><p>水费</p></label></li><li class="child_li" data-id="316" data-pid="43"><label><p>电费</p></label></li><li class="child_li" data-id="45" data-pid="43"><label><p>网络</p></label></li><li class="child_li" data-id="46" data-pid="43"><label><p>天然气</p></label></li><div class="clear"></div></ul></div></li></li><li class="screen_li"><div class="type_block"><span class="type_name">设备设施</span></div><div class="child_block checkbox" data-type="checkbox"><ul data-pid="48"><li class="child_li" data-id="49" data-pid="48"><label><p>洗衣设施</p></label></li><li class="child_li" data-id="50" data-pid="48"><label><p>独立厨房</p></label></li><li class="child_li" data-id="52" data-pid="48"><label><p>基本电器</p></label></li><li class="child_li" data-id="51" data-pid="48"><label><p>基本家具</p></label></li><li class="child_li" data-id="394" data-pid="48"><label><p>中央空调</p></label></li><li class="child_li" data-id="54" data-pid="48"><label><p>独立卫浴</p></label></li><li class="child_li" data-id="53" data-pid="48"><label><p>独立车位</p></label></li><li class="child_li" data-id="395" data-pid="48"><label><p>充电桩</p></label></li><div class="clear"></div></ul></div></li></li><li class="screen_li"><div class="type_block"><span class="type_name">其他条件</span></div><div class="child_block checkbox" data-type="checkbox"><ul data-pid="214"><li class="child_li" data-id="392" data-pid="391"><label><p>可养猫</p></label></li><li class="child_li" data-id="393" data-pid="391"><label><p>可养狗</p></label></li><div class="clear"></div></ul></div></li></li>                    </ul>
+                    <!--<div class="clear_value" id="clear_value" ><i></i><span>清空已选条件</span></div>-->
+                    <!--            </div>-->
+                </div>
+                        <ul class="screen_val_list" id="screen_val_list" style="display:none;"></ul>
+            <!--
+                <div class="house-info-cat"><h1>相关分类</h1>
+                    <ul>
+                                                        <li>
+                                    <a href=""></a>
+                                </li>
+                                                </ul>
+                    <div class="clear"></div>
+                </div>
+                                        <div class="list-info house-list-info">
+                    <div class="service-tag" id="chooseTags">
+                        <h3>生活服务:</h3>
+                                            </div>
+                    <div class="clear"></div>
+                </div>
+            -->            <div class="pagetotalnum fl">共找到 <span class="totalcount">391619</span> 条个人广告
+            </div>
+            <div class="list-addr fr">
+                <div class="select" id="s_city" style="width: 140px;float: right;">
+                    <div class="select_head" style="background: #fff;">
+                        <div class="select_content">
+                            <span class="select_val" data-type="" data-id="">大温地区</span>
+                            <span class="select-icon"></span>
+                        </div>
+                    </div>
+                    <ul class="option">
+                        <li class="option_item" data-id="">大温地区</li>
+                        <li class="option_item" data-id="1">Burnaby</li><li class="option_item" data-id="4">Richmond</li><li class="option_item" data-id="5">Vancouver</li><li class="option_item" data-id="6">West Vancouver</li><li class="option_item" data-id="7">North Vancouver</li><li class="option_item" data-id="10">Surrey</li><li class="option_item" data-id="3">New Westminster</li><li class="option_item" data-id="2">Coquitlam</li><li class="option_item" data-id="13">Port Coquitlam</li><li class="option_item" data-id="8">Delta</li><li class="option_item" data-id="9">Langley</li><li class="option_item" data-id="17">Port Moody</li><li class="option_item" data-id="14">Maple Ridge</li><li class="option_item" data-id="15">Abbotsford</li><li class="option_item" data-id="16">Whistler</li><li class="option_item" data-id="11">White Rock</li><li class="option_item" data-id="19">Pitt Meadows</li><li class="option_item" data-id="18">Victoria</li><li class="option_item" data-id="21">Nanaimo</li><li class="option_item" data-id="20">Sunshine Coast</li><li class="option_item" data-id="12">Other</li>                    </ul>
+                </div>
+                            </div>
+            <div class="clear"></div>
+            <ul class="c-list" id="ajaxdata">
+                <div class="geren_list "><li class="list" data-url="/wuye/item-3022894.html">    <div class="c-list-pic fl">        <span class="bggreen">推广</span>        <img src="https://thumb.vancdn.com/van/c/202505/11/09/uu4xX472th.J4kWik4iDiNWNCLC0_ysANm_w300_280d.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/wuye/item-3022894.html" target="_blank" class="c-list-title">【租售杰瑞】UBC租房UBC公寓UBC一房UBC两房UBC合租UBC校内温哥华租房温西学区罗宾温西租房独立屋UBC大学</a>            <div class="c-list-money">                <span class="money">面议</span><span class="mark"></span><span class="tags"></span>             </div>            <div class="c-list-tips"><span class="class">温哥华</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">点击查看</h2>            <div class="c-list-lan">国语，英语</div>            <span class="c-list-date">4天前</span>        </div>    </div></li><li class="list" data-url="/wuye/item-1368439.html">    <div class="c-list-pic fl">        <span class="bggreen">推广</span>        <img src="https://thumb.vancdn.com/van/c/202504/09/11/DiGvcw6wUT.qKNDLC4uDfkCvvC4g_ysANm_w300_5048.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/wuye/item-1368439.html" target="_blank" class="c-list-title">安居物业管理公司 - 最专业及规范的物业管理公司 - 一站式物业管理服务 - 名牌连锁</a>            <div class="c-list-money">                <span class="money">面议</span><span class="mark"></span><span class="tags"></span>             </div>            <div class="c-list-tips"><span class="class">本拿比</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">安居物业管理</h2>            <div class="c-list-lan">国语，粤语，英语</div>            <span class="c-list-date">2025/05/05</span>        </div>    </div></li><li class="list" data-url="/banyun/item-2626279.html">    <div class="c-list-pic fl">        <span class="bggreen">推广</span>        <img src="https://thumb.vancdn.com/van/c/202110/29/12/yfqCNCuDNzuNKvy4KJMqOUKMeKOH_w300_0a63.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/banyun/item-2626279.html" target="_blank" class="c-list-title">⭐️留学生特惠⭐️，老牌华人搬家公司☀️，垃圾处理，退租专业清洁，Victoria，Kelowna专线搬家，24hr服务</a>            <div class="c-list-money">                <span class="money">面议</span><span class="mark"></span><span class="tags"></span>             </div>            <div class="c-list-tips"><span class="class">列治文</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">David</h2>            <div class="c-list-lan">国语，粤语，英语</div>            <span class="c-list-date">2025/04/01</span>        </div>    </div></li></div><div class="geren_list "><li class="list" data-url="/zufang/item-3139989.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202311/30/13/iu9q8Vq7u3.WLuqNKWukKv4vNNNa_w300_a90a.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3139989.html" target="_blank" class="c-list-title">Ubc,列治文 1房2房3房公寓拎包入住</a>            <div class="c-list-money">                <span class="money">$4,000</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">列治文</span><span >公寓</span><span >1卧</span><span >整租</span><span >1卫</span><span >1den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">Lisa</h2>            <div class="c-list-lan">国语</div>            <span class="c-list-date">2025/09/03</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3334972.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202505/22/06/uu5hR_l8OW.iy4zLy4vNJ4ukqKkz_w300_18ef.png">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3334972.html" target="_blank" class="c-list-title">冽冶文Broadmoor 独立出入套房出租</a>            <div class="c-list-money">                <span class="money">$1,600</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">列治文</span><span >分租</span><span >独立屋</span><span >独立卫浴</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">Ellen</h2>            <div class="c-list-lan">国语，英语</div>            <span class="c-list-date">昨天</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3391742.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/02/00/Kf5oL_e7Yg.uDqqJkukfvDifvJLH_w300_442f.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3391742.html" target="_blank" class="c-list-title">本拿比商圈Edmonds天车站旁一年新高层</a>            <div class="c-list-money">                <span class="money">$3,000</span><span class="mark">加币/月</span><span class="tags">包水, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">本拿比</span><span >公寓</span><span >整租</span><span >2卧</span><span >2卫</span><span >1den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">Feng</h2>            <div class="c-list-lan">国语，英语</div>            <span class="c-list-date">2天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3396054.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/12/15/Df4Tw7dOOZ.WJzWCJLNqCKL4zuCj_w300_5353.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3396054.html" target="_blank" class="c-list-title">北本拿比近SFU地上一房一廳出租</a>            <div class="c-list-money">                <span class="money">$1,750</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">本拿比</span><span >1卧</span><span >独立屋</span><span >整租</span><span >1卫</span><span >0den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">房東</h2>            <div class="c-list-lan">国语</div>            <span class="c-list-date">2天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3377848.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202507/29/09/qqToQOSLef.LJKCzNkWu4qKWzLkv_w300_38c1.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3377848.html" target="_blank" class="c-list-title">西区 House 出租--顶级私校学区</a>            <div class="c-list-money">                <span class="money">$5,500</span><span class="mark">加币/月</span><span class="tags"></span>             </div>            <div class="c-list-tips"><span class="class">温哥华</span><span >独立屋</span><span >整租</span><span >5卧或更多</span><span >3卫</span><span >0den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">John</h2>            <div class="c-list-lan">国语，英语</div>            <span class="c-list-date">2025/08/24</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3391774.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/02/08/vD42v9wta5.fNyf4WiDKJfuWJvDR_w300_9b62.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3391774.html" target="_blank" class="c-list-title">温哥华ontario&amp;60th 独立卫浴套间出租</a>            <div class="c-list-money">                <span class="money">$1,400</span><span class="mark">加币/月</span><span class="tags">包水, 网</span>             </div>            <div class="c-list-tips"><span class="class">温哥华</span><span >分租</span><span >独立屋</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">张先生</h2>            <div class="c-list-lan">国语</div>            <span class="c-list-date">昨天</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3393413.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/05/23/zu7zDEcDg9.uyDzvy4uzzyuikLCA_ysANm_w300_adc1.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3393413.html" target="_blank" class="c-list-title">Metrotown 2BR 空调condo出租</a>            <div class="c-list-money">                <span class="money">$2,950</span><span class="mark">加币/月</span><span class="tags">包水, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">本拿比</span><span >公寓</span><span >整租</span><span >2卧</span><span >2卫</span><span >0den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">Zed</h2>            <div class="c-list-lan">国语，粤语，英语</div>            <span class="c-list-date">3天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3385164.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202508/14/22/zDDvY0-Hre.kkqC44ui4y4WKvDqI_w300_0e04.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3385164.html" target="_blank" class="c-list-title">天车站附近Cambie house二楼单间出租</a>            <div class="c-list-money">                <span class="money">$1,200</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">温哥华</span><span >分租</span><span >独立屋</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">Sophia</h2>            <div class="c-list-lan">国语，英语</div>            <span class="c-list-date">2天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3396778.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3396778.html" target="_blank" class="c-list-title">Dunbar 加19Ave house单间出租近UBC，LB中学</a>            <div class="c-list-money">                <span class="money">$1,250</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">温哥华</span><span >分租</span><span >独立屋</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">sophia</h2>            <div class="c-list-lan">国语，英语</div>            <span class="c-list-date">昨天</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3395201.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/10/12/uD1ftFMION.Wyq4yvJ4v4fzvDf40_ysANm_w300_d7b2.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3395201.html" target="_blank" class="c-list-title">Metrotown-地面2房1卫出租</a>            <div class="c-list-money">                <span class="money">$2,000</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网</span>             </div>            <div class="c-list-tips"><span class="class">本拿比</span><span >独立屋</span><span >整租</span><span >2卧</span><span >1卫</span><span >0den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">陈太</h2>            <div class="c-list-lan">国语</div>            <span class="c-list-date">4天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3396000.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/12/11/qzkTx0eKnk.kNNzNJiDWNu4DWDiL_w300_3c56.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3396000.html" target="_blank" class="c-list-title">列治文好区house单房出租</a>            <div class="c-list-money">                <span class="money">$1,100</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">列治文</span><span >分租</span><span >独立屋</span><span >独立卫浴</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">孙女士</h2>            <div class="c-list-lan">国语</div>            <span class="c-list-date">2天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3396241.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/12/23/iqWTmu1FC4.iLiifCzDiWDqkffil_w300_ee48.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3396241.html" target="_blank" class="c-list-title">列治文近天车站大统华KPU单房出租</a>            <div class="c-list-money">                <span class="money">$1,050</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">列治文</span><span >分租</span><span >连排屋</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">孙女士</h2>            <div class="c-list-lan">国语</div>            <span class="c-list-date">2天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3395006.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/09/20/iitubx6wav.CNqDqiWWq4uuCKfK2_ysANm_w300_bcb7.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3395006.html" target="_blank" class="c-list-title">列治文1房1厅公寓整租，近KPU和Landsdowne天车站  1房1厅1卫</a>            <div class="c-list-money">                <span class="money">$1,950</span><span class="mark">加币/月</span><span class="tags">包水</span>             </div>            <div class="c-list-tips"><span class="class">列治文</span><span >公寓</span><span >1卧</span><span >整租</span><span >1卫</span><span >0den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">Jun</h2>            <div class="c-list-lan">国语，粤语，英语</div>            <span class="c-list-date">4天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3393368.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/05/20/KDBDAmahO3.yzDvDqLvNi4vk4Dkl_w300_c3a4.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3393368.html" target="_blank" class="c-list-title">Oakridge如新矮层水泥公寓 一房一旦包网家具</a>            <div class="c-list-money">                <span class="money">$2,580</span><span class="mark">加币/月</span><span class="tags">包水, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">温哥华</span><span >公寓</span><span >1卧</span><span >整租</span><span >1卫</span><span >1den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">Jane Jiang</h2>            <div class="c-list-lan">国语</div>            <span class="c-list-date">3天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3395095.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/10/07/zKRf8gNADn.qLyzvzWCfNkkvzv4c_w300_b832.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3395095.html" target="_blank" class="c-list-title">新装修的一层House独立出入全包$1100</a>            <div class="c-list-money">                <span class="money">$1,100</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">列治文</span><span >分租</span><span >独立屋</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">房东</h2>            <div class="c-list-lan">国语，英语</div>            <span class="c-list-date">4天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3396932.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/14/23/Di7hBXmglR.qWqzJKvziyikJkfK4_w300_ba0e.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3396932.html" target="_blank" class="c-list-title">温哥华downtown一室海景公寓</a>            <div class="c-list-money">                <span class="money">$3,200</span><span class="mark">加币/月</span><span class="tags">包水</span>             </div>            <div class="c-list-tips"><span class="class">温哥华</span><span >公寓</span><span >1卧</span><span >整租</span><span >1卫</span><span >1den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">ellen</h2>            <div class="c-list-lan">国语</div>            <span class="c-list-date">昨天</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3367954.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202506/30/14/vf3iksbX4_.yquzWizuNqfikyzKG_w300_d14d.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3367954.html" target="_blank" class="c-list-title">二楼向花园套房出租</a>            <div class="c-list-money">                <span class="money">$1,200</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">列治文</span><span >分租</span><span >独立屋</span><span >独立卫浴</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">phoebe</h2>            <div class="c-list-lan">国语，粤语</div>            <span class="c-list-date">2天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3394745.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/09/10/KKnuwKggKY.JiWJfyN4fvkWkCfun_w300_626b.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3394745.html" target="_blank" class="c-list-title">套房特價（2房1廚1廳）</a>            <div class="c-list-money">                <span class="money">$1,599</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网</span>             </div>            <div class="c-list-tips"><span class="class">列治文</span><span >独立屋</span><span >整租</span><span >2卧</span><span >1卫</span><span >0den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">李太</h2>            <div class="c-list-lan">国语，粤语，英语</div>            <span class="c-list-date">昨天</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3391608.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/01/17/zz8oxrEk0P.LJqJqNKNCJCLuCfkx_w300_a5a2.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3391608.html" target="_blank" class="c-list-title">天车站口近机场公寓房瑜伽游泳健美设施齐景美拎包可住6048182698</a>            <div class="c-list-money">                <span class="money">$900</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">列治文</span><span >公寓</span><span >分租</span><span >独立卫浴</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">元喜</h2>            <div class="c-list-lan">国语，粤语</div>            <span class="c-list-date">昨天</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3390445.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202508/29/10/uz0fqgtcX_.4NCDNqLqzfuKNWvkT_w300_edec.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3390445.html" target="_blank" class="c-list-title">列治文西区, 温哥华西区别墅 整租</a>            <div class="c-list-money">                <span class="money">$7,000</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">温哥华</span><span >独立屋</span><span >整租</span><span >5卧或更多</span><span >4卫或更多</span><span >1den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">rich</h2>            <div class="c-list-lan">国语</div>            <span class="c-list-date">2025/09/05</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3358638.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202506/05/11/JiqzJ6BZIS.Di4JifWDJqyWzJkqk_ysANm_w300_f5d3.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3358638.html" target="_blank" class="c-list-title">素里中心一房一厅高级景观公寓出租即可入住</a>            <div class="c-list-money">                <span class="money">$1,720</span><span class="mark">加币/月</span><span class="tags"></span>             </div>            <div class="c-list-tips"><span class="class">素里</span><span >公寓</span><span >1卧</span><span >整租</span><span >1卫</span><span >0den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">诚信房东</h2>            <div class="c-list-lan">国语</div>            <span class="c-list-date">1天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3395148.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/10/10/KfQf0qkW8E.fkNNDkKNvDCvfKqLz_w300_4593.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3395148.html" target="_blank" class="c-list-title">Richmond center 高楼主卧10/1-11/30出租</a>            <div class="c-list-money">                <span class="money">$1,500</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">列治文</span><span >公寓</span><span >分租</span><span >独立卫浴</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">Lin</h2>            <div class="c-list-lan">国语</div>            <span class="c-list-date">1天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3393886.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/07/06/vu3vGRHjo5.LvviKDqvJkDqDKJDo_w300_422f.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3393886.html" target="_blank" class="c-list-title">UBC 大學生活圈單房間适合男女学生住房配公用廚房及衛浴價優</a>            <div class="c-list-money">                <span class="money">$899</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">温哥华</span><span >分租</span><span >独立屋</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">李小姐</h2>            <div class="c-list-lan">国语，粤语，英语</div>            <span class="c-list-date">1天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3395034.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/09/22/zukfWSgw2-.L4DquDuN4vzyD4DCJ_w300_5c25.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3395034.html" target="_blank" class="c-list-title">列治文公寓出租 近天车站 有空调</a>            <div class="c-list-money">                <span class="money">$3,100</span><span class="mark">加币/月</span><span class="tags">包水, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">列治文</span><span >公寓</span><span >整租</span><span >2卧</span><span >2卫</span><span >0den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">Anna</h2>            <div class="c-list-lan">国语，粤语，英语</div>            <span class="c-list-date">2025/09/09</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3396616.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/14/06/zKx2deg0uI.KqJqCWDqkfzNLWukh_w300_d91c.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3396616.html" target="_blank" class="c-list-title">本拿比丽晶广场附近有房出租</a>            <div class="c-list-money">                <span class="money">$1,000</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">本拿比</span><span >独立屋</span><span >整租</span><span >2卧</span><span >1卫</span><span >0den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">馨姐</h2>            <div class="c-list-lan">国语</div>            <span class="c-list-date">昨天</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3393349.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/05/20/qiHDF0ree2.4CK4vf4JWkW4vkuKo_w300_b588.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3393349.html" target="_blank" class="c-list-title">独立出入house大套房｜可养猫</a>            <div class="c-list-money">                <span class="money">$1,390</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">列治文</span><span >1卧</span><span >独立屋</span><span >整租</span><span >1卫</span><span >0den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">魏先生</h2>            <div class="c-list-lan">国语</div>            <span class="c-list-date">昨天</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3383470.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202508/10/17/izp2QLFp0f.fkqWkND4JD4uqKiCX_w300_a095.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3383470.html" target="_blank" class="c-list-title">metrotown 2房2卫步行至天车</a>            <div class="c-list-money">                <span class="money">$2,850</span><span class="mark">加币/月</span><span class="tags">包水, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">本拿比</span><span >公寓</span><span >整租</span><span >2卧</span><span >2卫</span><span >0den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">Darla</h2>            <div class="c-list-lan">国语，英语</div>            <span class="c-list-date">2天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3370022.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202507/05/14/Ku5TMLxXyS.iNvqyWyLiKJWqkffs_w300_e524.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3370022.html" target="_blank" class="c-list-title">metrotown地下1室1卫独立出入</a>            <div class="c-list-money">                <span class="money">$1,095</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">本拿比</span><span >分租</span><span >独立屋</span><span >独立卫浴</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">张女士</h2>            <div class="c-list-lan">国语</div>            <span class="c-list-date">2025/09/08</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3393949.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202509/09/10/KD9ur_x-mS.kKDyfCkLyuyLkvDLv_w300_2306.png">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3393949.html" target="_blank" class="c-list-title">Richmond 二号路独立出入一居室出租</a>            <div class="c-list-money">                <span class="money">$1,600</span><span class="mark">加币/月</span><span class="tags">包水, 电, 天然气</span>             </div>            <div class="c-list-tips"><span class="class">列治文</span><span >1卧</span><span >独立屋</span><span >整租</span><span >1卫</span><span >0den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">Helen</h2>            <div class="c-list-lan">国语</div>            <span class="c-list-date">4天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3188960.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202403/25/16/JihqVAL_iy.CKzWuJkC4iNCifuiR_w300_824c.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3188960.html" target="_blank" class="c-list-title">烈治文豪宅套房出租</a>            <div class="c-list-money">                <span class="money">$1,400</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网</span>             </div>            <div class="c-list-tips"><span class="class">列治文</span><span >分租</span><span >独立屋</span><span >独立卫浴</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">Winky</h2>            <div class="c-list-lan">国语，粤语，英语</div>            <span class="c-list-date">2天前</span>        </div>    </div></li><li class="list" data-url="/zufang/item-3250931.html">    <div class="c-list-pic fl">        <span class="bgred">推荐</span>        <img src="https://thumb.vancdn.com/van/c/202408/17/19/iqEhsnIunj.NykyNzKKyyyizfCWH_ysANm_w300_f369.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/zufang/item-3250931.html" target="_blank" class="c-list-title">南素里/白石镇 1年新 一室一厅公寓</a>            <div class="c-list-money">                <span class="money">$2,100</span><span class="mark">加币/月</span><span class="tags"></span>             </div>            <div class="c-list-tips"><span class="class">素里</span><span >公寓</span><span >1卧</span><span >整租</span><span >1卫</span><span >0den</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">Tony</h2>            <div class="c-list-lan">国语，英语</div>            <span class="c-list-date">4天前</span>        </div>    </div></li></div><!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394318.html">
+                    <div class="c-list-pic fl"><span>4图</span><img src="https://thumb.vancdn.com/van/c/202509/08/09/uzwqiLQOrA.WyJvvWfuzkvzyJfiv_ysANm_w300_c985.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394318.html" target="_blank" class="c-list-title">列市中心独立出入一房厨卫 养猫</a>
+                            <div class="c-list-money"><span class="money">$1,300</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >列治文</span><span >1卧</span><span >独立屋</span><span >整租</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Peter</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394298.html">
+                    <div class="c-list-pic fl"><span>6图</span><img src="https://thumb.vancdn.com/van/c/202509/08/07/KJZi_3crM-.JuqWLK4ivLqW4iKu2_w300_c4fc.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394298.html" target="_blank" class="c-list-title">舒適一臥室花園套房出租</a>
+                            <div class="c-list-money"><span class="money">$2,200</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网</span></div>                            <div class="c-list-tips">
+                                <span >本拿比</span><span >1卧</span><span >整租</span><span >后巷屋</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Howie Jao</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394291.html">
+                    <div class="c-list-pic fl"><span>6图</span><img src="https://thumb.vancdn.com/van/c/202509/08/06/uq3ia1TxOp.DuLqLqiyJzCWJJqfl_w300_e79a.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394291.html" target="_blank" class="c-list-title">Langley 優質兩房公寓</a>
+                            <div class="c-list-money"><span class="money">$2,450</span><span class="mark">加币/月</span><span class="tags">包水, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >其它</span><span >公寓</span><span >整租</span><span >2卧</span><span >2卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Howie Jao</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3359683.html">
+                    <div class="c-list-pic fl"><span>8图</span><img src="https://thumb.vancdn.com/van/c/202506/07/15/uJziUWKOtN.iDKyzLqvkKJizivvA_w300_67af.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3359683.html" target="_blank" class="c-list-title">溫哥華單房出租$880/月全包</a>
+                            <div class="c-list-money"><span class="money">$880</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >温哥华</span><span >分租</span><span >独立屋</span><span >独立卫浴</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">郭小姐</h2><div class="c-list-lan">国语，粤语，英语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394341.html">
+                    <div class="c-list-pic fl"><span>11图</span><img src="https://thumb.vancdn.com/van/c/202509/08/10/Dfgqfwu7PS.fqzzJKvyiCquLKLCe_w300_f115.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394341.html" target="_blank" class="c-list-title">🎉 近 SFU ,寧靜兩房，筍盤快手</a>
+                            <div class="c-list-money"><span class="money">$1,860</span><span class="mark">加币/月</span><span class="tags"></span></div>                            <div class="c-list-tips">
+                                <span >新西敏</span><span >独立屋</span><span >整租</span><span >2卧</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Lee</h2><div class="c-list-lan">国语，粤语，英语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394333.html">
+                    <div class="c-list-pic fl"><span>9图</span><img src="https://thumb.vancdn.com/van/c/202509/08/10/DKCqu7bKio.iWNKvfKKkquizKzkq_w300_0e55.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394333.html" target="_blank" class="c-list-title">列治文全新1房1卫豪华公寓出租</a>
+                            <div class="c-list-money"><span class="money">$2,500</span><span class="mark">加币/月</span><span class="tags"></span></div>                            <div class="c-list-tips">
+                                <span >列治文</span><span >公寓</span><span >1卧</span><span >整租</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">David Duan</h2><div class="c-list-lan">国语，英语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394330.html">
+                    <div class="c-list-pic fl"><span>19图</span><img src="https://thumb.vancdn.com/van/c/202509/08/09/qDTqur7E5h.JN4WWJWkkCWkWKkkB_w300_2a60.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394330.html" target="_blank" class="c-list-title">3房2衛，鄰近Burquitlam天車站</a>
+                            <div class="c-list-money"><span class="money">$3,300</span><span class="mark">加币/月</span><span class="tags">包水, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >高贵林</span><span >公寓</span><span >整租</span><span >3卧</span><span >2卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Sam</h2><div class="c-list-lan">国语，粤语，英语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394325.html">
+                    <div class="c-list-pic fl"><span>0图</span><img src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394325.html" target="_blank" class="c-list-title">Metrotown 独立出入二房一厅一卫</a>
+                            <div class="c-list-money"><span class="money">$2,560</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >本拿比</span><span >独立屋</span><span >整租</span><span >2卧</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">屋主</h2><div class="c-list-lan">国语，粤语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394316.html">
+                    <div class="c-list-pic fl"><span>3图</span><img src="https://thumb.vancdn.com/van/c/202509/08/08/zupqvT-c0m.yuiqzfJyyuvzLvfy6_w300_f541.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394316.html" target="_blank" class="c-list-title">台灣村寬敞2臥室半地下套房出租</a>
+                            <div class="c-list-money"><span class="money">$2,000</span><span class="mark">加币/月</span><span class="tags"></span></div>                            <div class="c-list-tips">
+                                <span >素里</span><span >独立屋</span><span >整租</span><span >2卧</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Bob Zhong</h2><div class="c-list-lan">国语，粤语，英语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394374.html">
+                    <div class="c-list-pic fl"><span>0图</span><img src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394374.html" target="_blank" class="c-list-title">一大房出租丶1200元丶附車位傢俱</a>
+                            <div class="c-list-money"><span class="money">$1,200</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >本拿比</span><span >分租</span><span >独立屋</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">屋主</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394357.html">
+                    <div class="c-list-pic fl"><span>3图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/11/uieqTfNa0b.LyyLCivNLC4ukJku4_w300_161c.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394357.html" target="_blank" class="c-list-title">温哥华独立屋2房1厅</a>
+                            <div class="c-list-money"><span class="money">$1,700</span><span class="mark">加币/月</span><span class="tags">包水, 网</span></div>                            <div class="c-list-tips">
+                                <span >温哥华</span><span >1卧</span><span >独立屋</span><span >整租</span><span >1卫</span><span >1den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">李先生</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394326.html">
+                    <div class="c-list-pic fl"><span>5图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/09/zfGqqa_AzK.CLCWLzqDuLWiKLLzD_w300_9199.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394326.html" target="_blank" class="c-list-title">独立屋平地大卧室找一位男士分租</a>
+                            <div class="c-list-money"><span class="money">$1,300</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >本拿比</span><span >分租</span><span >独立屋</span><span >独立卫浴</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">房东</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394370.html">
+                    <div class="c-list-pic fl"><span>7图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/11/izzqowAOLe.zCvfCiLNzJyvzLDuK_ysANm_w300_ce37.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394370.html" target="_blank" class="c-list-title">Buranby Central North 單房出租</a>
+                            <div class="c-list-money"><span class="money">$820</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >本拿比</span><span >分租</span><span >独立屋</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">蘇太太</h2><div class="c-list-lan">国语，英语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394327.html">
+                    <div class="c-list-pic fl"><span>3图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/09/izhquJYTWe.JKq4WkiqiWikC4zD0_ysANm_w300_e1bf.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394327.html" target="_blank" class="c-list-title">列市河滨好学区幽静4房3卫</a>
+                            <div class="c-list-money"><span class="money">$3,280</span><span class="mark">加币/月</span><span class="tags"></span></div>                            <div class="c-list-tips">
+                                <span >列治文</span><span >独立屋</span><span >整租</span><span >4卧</span><span >3卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Peter</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3381831.html">
+                    <div class="c-list-pic fl"><span>7图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202508/06/18/vfBfECWZKD.fqDNLJkWkDqiqyWk1_w300_5589.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3381831.html" target="_blank" class="c-list-title">ubc wesbrook mall 2房2卫1den公寓出租</a>
+                            <div class="c-list-money"><span class="money">$4,000</span><span class="mark">加币/月</span><span class="tags"></span></div>                            <div class="c-list-tips">
+                                <span >温哥华</span><span >公寓</span><span >整租</span><span >2卧</span><span >2卫</span><span >1den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Nicholas</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394398.html">
+                    <div class="c-list-pic fl"><span>5图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/12/viHqhgLCX4.KDf4WN4WiuWukCvD9_w300_7eed.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394398.html" target="_blank" class="c-list-title">McMath中学旁的一室一厅独立出入单元只要1500</a>
+                            <div class="c-list-money"><span class="money">$1,500</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >列治文</span><span >1卧</span><span >独立屋</span><span >整租</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">杨姐</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394364.html">
+                    <div class="c-list-pic fl"><span>7图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/11/ifwqTtD1Qc.zvu4J4CzfWKLkvWJN_w300_3061.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394364.html" target="_blank" class="c-list-title">【招租】近Metrotown和Royal Oak天车站｜3房3卫城市屋</a>
+                            <div class="c-list-money"><span class="money">$3,300</span><span class="mark">加币/月</span><span class="tags">包水, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >本拿比</span><span >整租</span><span >连排屋</span><span >3卧</span><span >3卫</span><span >1den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Wolf</h2><div class="c-list-lan">国语，英语</div>                            <span class="c-list-date">刚刚</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394433.html">
+                    <div class="c-list-pic fl"><span>20图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/13/uiXqjLHCf7.NLLzDfq4yJfNfJDCO_ysANm_w300_1d16.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394433.html" target="_blank" class="c-list-title">列治文近沃尔玛商圈2房2卫公寓</a>
+                            <div class="c-list-money"><span class="money">$2,800</span><span class="mark">加币/月</span><span class="tags">包水, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >列治文</span><span >公寓</span><span >整租</span><span >2卧</span><span >2卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Jimmy</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394429.html">
+                    <div class="c-list-pic fl"><span>30图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/13/vi5qjiZmWX.kiLkkyfCDfLvkzCDo_w300_1791.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394429.html" target="_blank" class="c-list-title">维护良好的3卧2卫房屋带超大露台</a>
+                            <div class="c-list-money"><span class="money">$5,450</span><span class="mark">加币/月</span><span class="tags"></span></div>                            <div class="c-list-tips">
+                                <span >西温</span><span >独立屋</span><span >整租</span><span >3卧</span><span >2卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Leo</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394386.html">
+                    <div class="c-list-pic fl"><span>12图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/11/iqiqoAOSI2.y4Wf4viLNLvD44kuQ_ysANm_w300_1b6c.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394386.html" target="_blank" class="c-list-title">温哥华DT市中心两房一卫整套公寓 包家具水电网暖气车位</a>
+                            <div class="c-list-money"><span class="money">$3,000</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网</span></div>                            <div class="c-list-tips">
+                                <span >温哥华</span><span >公寓</span><span >整租</span><span >2卧</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">yvonne</h2><div class="c-list-lan">国语，英语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <div class="geren_list bordertop pt10 mt10 "><li class="list" data-url="/wuye/item-1368439.html">    <div class="c-list-pic fl">        <span class="bggreen">推广</span>        <img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202504/09/11/DiGvcw6wUT.qKNDLC4uDfkCvvC4g_ysANm_w300_5048.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/wuye/item-1368439.html" target="_blank" class="c-list-title">安居物业管理公司 - 最专业及规范的物业管理公司 - 一站式物业管理服务 - 名牌连锁</a>            <div class="c-list-money">                <span class="money">面议</span><span class="mark"></span><span class="tags"></span>             </div>            <div class="c-list-tips"><span class="class">本拿比</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">安居物业管理</h2>            <div class="c-list-lan">国语，粤语，英语</div>            <span class="c-list-date">2025/05/05</span>        </div>    </div></li><li class="list" data-url="/wuye/item-3022894.html">    <div class="c-list-pic fl">        <span class="bggreen">推广</span>        <img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202505/11/09/uu4xX472th.J4kWik4iDiNWNCLC0_ysANm_w300_280d.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/wuye/item-3022894.html" target="_blank" class="c-list-title">【租售杰瑞】UBC租房UBC公寓UBC一房UBC两房UBC合租UBC校内温哥华租房温西学区罗宾温西租房独立屋UBC大学</a>            <div class="c-list-money">                <span class="money">面议</span><span class="mark"></span><span class="tags"></span>             </div>            <div class="c-list-tips"><span class="class">温哥华</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">点击查看</h2>            <div class="c-list-lan">国语，英语</div>            <span class="c-list-date">4天前</span>        </div>    </div></li><li class="list" data-url="/banyun/item-2626279.html">    <div class="c-list-pic fl">        <span class="bggreen">推广</span>        <img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202110/29/12/yfqCNCuDNzuNKvy4KJMqOUKMeKOH_w300_0a63.jpg">    </div>    <div class="c-list-contxt fl" style="width: 782px;">        <div class="c-list-contxt-l">            <a href="/banyun/item-2626279.html" target="_blank" class="c-list-title">⭐️留学生特惠⭐️，老牌华人搬家公司☀️，垃圾处理，退租专业清洁，Victoria，Kelowna专线搬家，24hr服务</a>            <div class="c-list-money">                <span class="money">面议</span><span class="mark"></span><span class="tags"></span>             </div>            <div class="c-list-tips"><span class="class">列治文</span>            </div>        </div>        <div class="c-list-contxt-r">            <h2 class="c-list-uname ">David</h2>            <div class="c-list-lan">国语，粤语，英语</div>            <span class="c-list-date">2025/04/01</span>        </div>    </div></li></div><!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3389454.html">
+                    <div class="c-list-pic fl"><span>14图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202508/26/13/vqJv83Y5Ir.iqiuDLNKiWzyviyLT_w300_6765.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3389454.html" target="_blank" class="c-list-title">温西house单间出租带家具全包</a>
+                            <div class="c-list-money"><span class="money">$950</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >温哥华</span><span >分租</span><span >独立屋</span><span >独立卫浴</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Jennie</h2><div class="c-list-lan">国语，粤语，英语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3381777.html">
+                    <div class="c-list-pic fl"><span>11图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202508/06/16/JfXfLOoDYe.ivz4fDKvCvKykyvCU_w300_1569.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3381777.html" target="_blank" class="c-list-title">北本近SFU4房3卫townhouse</a>
+                            <div class="c-list-money"><span class="money">$3,200</span><span class="mark">加币/月</span><span class="tags">包水</span></div>                            <div class="c-list-tips">
+                                <span >本拿比</span><span >整租</span><span >连排屋</span><span >4卧</span><span >4卫或更多</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Jennie</h2><div class="c-list-lan">国语，粤语，英语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3390049.html">
+                    <div class="c-list-pic fl"><span>5图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202508/28/00/JiGqZE8xQc.JWCKJyk4zCCNKNkk5_w300_19e8.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3390049.html" target="_blank" class="c-list-title">Joyce天车一房一den一储物带家具</a>
+                            <div class="c-list-money"><span class="money">$2,100</span><span class="mark">加币/月</span><span class="tags">包水, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >本拿比</span><span >公寓</span><span >1卧</span><span >整租</span><span >1卫</span><span >1den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Jennie</h2><div class="c-list-lan">国语，粤语，英语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394443.html">
+                    <div class="c-list-pic fl"><span>16图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/13/fz2qX8ZGx_.yDivyyyWzL4ffiKKU_w300_02c7.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394443.html" target="_blank" class="c-list-title">2室1卫地下室, 租金包水电网气</a>
+                            <div class="c-list-money"><span class="money">$1,850</span><span class="mark">加币/月</span><span class="tags"></span></div>                            <div class="c-list-tips">
+                                <span >高贵林</span><span >独立屋</span><span >整租</span><span >2卧</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Alvin</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394435.html">
+                    <div class="c-list-pic fl"><span>21图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/13/KuyqjEzCgh.JzWyivvyvkkf4J4uk_w300_f1eb.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394435.html" target="_blank" class="c-list-title">温东CommercialDr3房1卫独栋上层</a>
+                            <div class="c-list-money"><span class="money">$3,000</span><span class="mark">加币/月</span><span class="tags"></span></div>                            <div class="c-list-tips">
+                                <span >温哥华</span><span >独立屋</span><span >整租</span><span >3卧</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Jimmy</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394414.html">
+                    <div class="c-list-pic fl"><span>4图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/12/uJTqcx6WuK.NvJDfziNu4JqJvfvU_w300_79d2.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394414.html" target="_blank" class="c-list-title">北素里台湾村2室1卫单元出租</a>
+                            <div class="c-list-money"><span class="money">$1,700</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >素里</span><span >独立屋</span><span >整租</span><span >2卧</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">David</h2><div class="c-list-lan">国语，英语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394476.html">
+                    <div class="c-list-pic fl"><span>9图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/15/ziMqr_p_jt.4KNkuiviyCqzDkzKl_w300_6548.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394476.html" target="_blank" class="c-list-title">Metrotown 天车站旁 一房一卫</a>
+                            <div class="c-list-money"><span class="money">$2,300</span><span class="mark">加币/月</span><span class="tags">包水, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >本拿比</span><span >公寓</span><span >1卧</span><span >整租</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Eric Dong</h2><div class="c-list-lan">国语，英语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394475.html">
+                    <div class="c-list-pic fl"><span>7图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/15/DJoqrFvTh6.JCz4JJyziKJKWLiCF_w300_0c3a.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394475.html" target="_blank" class="c-list-title">明亮舒适两卧室地下室套房 (~900平方英尺) | 素里中心</a>
+                            <div class="c-list-money"><span class="money">$1,850</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >素里</span><span >分租</span><span >独立屋</span><span >独立卫浴</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Ping</h2><div class="c-list-lan">国语，英语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394477.html">
+                    <div class="c-list-pic fl"><span>9图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/15/qilqrtUhLb.JWqfvfyzkD4JLvWu5_w300_9dcf.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394477.html" target="_blank" class="c-list-title">溫西近UBC全新裝修獨立出入地下室出租走路2分鐘49號公車去UBC</a>
+                            <div class="c-list-money"><span class="money">$1,800</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >温哥华</span><span >1卧</span><span >独立屋</span><span >整租</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">林太</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394454.html">
+                    <div class="c-list-pic fl"><span>11图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/13/Kq2qImiOwm.vzKqivqfkzzvvuNu4_w300_2b81.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394454.html" target="_blank" class="c-list-title">3 卧室2浴室公寓出租.步行5分钟即可到达Joyce Skytrain Station</a>
+                            <div class="c-list-money"><span class="money">$3,200</span><span class="mark">加币/月</span><span class="tags"></span></div>                            <div class="c-list-tips">
+                                <span >温哥华</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Winnie</h2><div class="c-list-lan">国语，粤语，英语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394439.html">
+                    <div class="c-list-pic fl"><span>14图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/13/zuqqXe3EiY.y4uyLkWCJDWuvKKfu_w300_77fa.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394439.html" target="_blank" class="c-list-title">Burquitlam天车高层1房1卫近SFU</a>
+                            <div class="c-list-money"><span class="money">$2,000</span><span class="mark">加币/月</span><span class="tags">包水, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >高贵林</span><span >公寓</span><span >1卧</span><span >整租</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Davie</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394288.html">
+                    <div class="c-list-pic fl"><span>3图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/01/iuRi4BdZnb.N4Nifv4Ki4zkLDWKm_w300_2944.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394288.html" target="_blank" class="c-list-title">Granville夹Gilbert一房一厅出租</a>
+                            <div class="c-list-money"><span class="money">$1,900</span><span class="mark">加币/月</span><span class="tags">包水, 电, 网</span></div>                            <div class="c-list-tips">
+                                <span >列治文</span><span >1卧</span><span >独立屋</span><span >整租</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">yan</h2><div class="c-list-lan">国语，粤语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3389488.html">
+                    <div class="c-list-pic fl"><span>18图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202508/26/14/uzQvCEXxvf.qqkifLJKNKfzyKuvM_w300_a447.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3389488.html" target="_blank" class="c-list-title">北素里Fleetwood4卧3卫+Den双拼 大户型学区房</a>
+                            <div class="c-list-money"><span class="money">$3,500</span><span class="mark">加币/月</span><span class="tags">包水</span></div>                            <div class="c-list-tips">
+                                <span >素里</span><span >整租</span><span >连排屋</span><span >4卧</span><span >3卫</span><span >1den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Owen</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394498.html">
+                    <div class="c-list-pic fl"><span>13图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/15/qJ0qwNcOfg.fJLLCKzuvuKWyKJC2_w300_c52b.png" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394498.html" target="_blank" class="c-list-title">温西近Kerrisdale豪華独立屋5房4.5卫+书房</a>
+                            <div class="c-list-money"><span class="money">$9,000</span><span class="mark">加币/月</span><span class="tags">包水</span></div>                            <div class="c-list-tips">
+                                <span >温哥华</span><span >独立屋</span><span >整租</span><span >5卧或更多</span><span >4卫或更多</span><span >1den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">kelly</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394494.html">
+                    <div class="c-list-pic fl"><span>11图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/15/fuvqw13CUj.qkuqvJiqqKCLNDCvm_ysANm_w300_ee9b.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394494.html" target="_blank" class="c-list-title">Richmond Oval一房一卫公寓一书房全套家具出租</a>
+                            <div class="c-list-money"><span class="money">$2,600</span><span class="mark">加币/月</span><span class="tags">包水, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >列治文</span><span >公寓</span><span >1卧</span><span >整租</span><span >1卫</span><span >1den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Phoebe</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394482.html">
+                    <div class="c-list-pic fl"><span>9图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/15/ufDqR0gQzW.qWJCNiukJKyLkkkCA_ysANm_w300_82fc.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394482.html" target="_blank" class="c-list-title">出租北本拿比中学Holdom天车站一室一厅地面独立出入</a>
+                            <div class="c-list-money"><span class="money">$1,650</span><span class="mark">加币/月</span><span class="tags"></span></div>                            <div class="c-list-tips">
+                                <span >本拿比</span><span >1卧</span><span >独立屋</span><span >整租</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">WEIBIN YUAN</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394469.html">
+                    <div class="c-list-pic fl"><span>1图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/14/JD1qB0NScp.LW4CJN44K4NyqCqq8_w300_6ab6.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394469.html" target="_blank" class="c-list-title">Richmond 两房两卫公寓出租。</a>
+                            <div class="c-list-money"><span class="money">$2,600</span><span class="mark">加币/月</span><span class="tags">包水, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >列治文</span><span >公寓</span><span >整租</span><span >2卧</span><span >2卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">黄太</h2><div class="c-list-lan">国语，粤语，英语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394465.html">
+                    <div class="c-list-pic fl"><span>27图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/13/DKUqI9qehU.kzvuWuq4kvzWuKfNH_w300_bfad.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394465.html" target="_blank" class="c-list-title">温哥华坎比西区 | 两房两卫豪华</a>
+                            <div class="c-list-money"><span class="money">$3,800</span><span class="mark">加币/月</span><span class="tags">包水, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >温哥华</span><span >公寓</span><span >整租</span><span >2卧</span><span >2卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">Elayne</h2><div class="c-list-lan">国语，粤语，英语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394496.html">
+                    <div class="c-list-pic fl"><span>2图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/15/zqnqwpToIu.zNLKJuNNzLCfkuWit_w300_a148.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394496.html" target="_blank" class="c-list-title">Richmond 两房两厅卫两公寓出租</a>
+                            <div class="c-list-money"><span class="money">$2,600</span><span class="mark">加币/月</span><span class="tags">包水, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >列治文</span><span >公寓</span><span >整租</span><span >2卧</span><span >2卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">黄太</h2><div class="c-list-lan">国语，粤语，英语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                <!--
+                            <li class="list" data-url="">
+                                                                <div class="c-list-contxt fl w782">
+                                    <div class="c-list-contxt-l">
+                                        <a href="" target="_blank" class="c-list-title"></a>
+                                                                            </div>
+                                    <div class="c-list-contxt-r">
+                                                                                <span class="c-list-date"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        -->                <li class="list " data-url="/zufang/item-3394488.html">
+                    <div class="c-list-pic fl"><span>9图</span><img class="lazy" src="https://static.vancdn.com/van/public/img/nopic/nopic-small.png" data-original="https://thumb.vancdn.com/van/c/202509/08/15/fKbqRdRQqg.vNDK4JqNuJqLWyKi4_ysANm_w300_30af.jpg" /></div>                    <div class="c-list-contxt fl w782">
+                        <div class="c-list-contxt-l ">
+                            <a href="/zufang/item-3394488.html" target="_blank" class="c-list-title">素里市中心全新一室一厅公寓出租</a>
+                            <div class="c-list-money"><span class="money">$2,100</span><span class="mark">加币/月</span><span class="tags">包水, 网, 天然气</span></div>                            <div class="c-list-tips">
+                                <span >素里</span><span >公寓</span><span >1卧</span><span >整租</span><span >1卫</span><span >0den</span>                            </div>
+                        </div>
+                        <div class="c-list-contxt-r">
+                            <h2 class="c-list-uname <?php echo $noLan;?>">屋主</h2><div class="c-list-lan">国语</div>                            <span class="c-list-date">1小时前</span>
+                        </div>
+                    </div>
+                </li>
+                                <div class="clear"></div>
+            </ul>
+            <div class="clear"></div>
+                            <div class="pages" id="pages"><div id="pageList"><a title="第1页"class="on" href="javascript:;">1</a><a title="第2页" href="/zufang/?page=2">2</a><a title="第3页" href="/zufang/?page=3">3</a><a title="第4页" href="/zufang/?page=4">4</a><a title="第5页" href="/zufang/?page=5">5</a><a title="第6页" href="/zufang/?page=6">6</a><a title="第7页" href="/zufang/?page=7">7</a><a title="第8页" href="/zufang/?page=8">8</a><a title="第9页" href="/zufang/?page=9">9</a><a title="下一页" href="/zufang/?page=2">下一页</a><a title="最后一页" href="/zufang/?page=9791">最后一页</a></div></div>
+                    </div>
+        <div class="clear"></div>
+    </div>
+    <aside class="main-bottom-r mt0">
+    <ul>
+        <li><a href="http://www.paragondirect.ca/vanpeople-landing/" target="_blank"><img src="https://www.vanpeople.com/gp/202507/30/3017152911657600GumVWrKF0G.gif" title="Paragon Food Equipment" alt="Paragon Food Equipment"/></a></li><li><a href="https://c.vanpeople.com/huikuan/item-2880706.html" target="_blank"><img src="https://www.vanpeople.com/gp/202502/26/2600441444193300fGeRvBSeuS.jpg" title="查水表（靠谱换汇）！24小时微信在线换汇！加币/人民币/Usdt！" alt="查水表（靠谱换汇）！24小时微信在线换汇！加币/人民币/Usdt！"/></a></li><li><a href="http://c.vanpeople.com/162/item-3239135.html" target="_blank"><img src="https://www.vanpeople.com/gp/202509/03/0315114479040600PhWiXGJpdR.jpg" title="大温地产金牌代理，国粤英一对一服务" alt="大温地产金牌代理，国粤英一对一服务"/></a></li><li><a href="https://c.vanpeople.com/jingji/item-2287730.html" target="_blank"><img src="https://www.vanpeople.com/gp/202502/24/2409504141632400rS7vEvP7FE.jpg" title="大温商业地产买卖专家" alt="大温商业地产买卖专家"/></a></li><li><a href="https://c.vanpeople.com/jingji/item-2885961.html" target="_blank"><img src="https://www.vanpeople.com/gp/202502/24/24100215323154002YvrivD0jD.jpg" title="朱杰大温专业地产经纪 -  “买卖租？找老朱！”" alt="朱杰大温专业地产经纪 -  “买卖租？找老朱！”"/></a></li><li><a href="https://www.vanpeople.com/c/2339842.html" target="_blank"><img src="https://www.vanpeople.com/gp/202504/02/0213230680672900RkLWiSqrNM.jpg" title="物业管理 TIANJIAO LAN" alt="物业管理 TIANJIAO LAN"/></a></li><li><a href="https://c.vanpeople.com/jingpindian/item-2541080.html" target="_blank"><img src="https://www.vanpeople.com/gp/202502/26/2601120843120100gkKTqbxk6w.jpg" title="尊享名表" alt="尊享名表"/></a></li><li><a href="https://c.vanpeople.com/jingji/item-2890941.html" target="_blank"><img src="https://www.vanpeople.com/gp/202502/24/2413165858412200Hw0fkpemAD.jpg" title="住宅商业物管，地产买卖" alt="住宅商业物管，地产买卖"/></a></li><li><a href="https://c.vanpeople.com/jingji/item-3158015.html" target="_blank"><img src="https://www.vanpeople.com/gp/202502/24/2410490943419500AL5FbaTlVe.jpg" title="MAX CHIU赵信德 专注生意买卖 物业买卖 土地买卖 物业租赁" alt="MAX CHIU赵信德 专注生意买卖 物业买卖 土地买卖 物业租赁"/></a></li><li><a href="https://c.vanpeople.com/jingji/item-2457537.html" target="_blank"><img src="https://www.vanpeople.com/gp/202502/26/2601425538003400w3oafTwWen.jpg" title="金牌地产经纪 王家毅 Jayden Wang PREC* 比您更懂您的房屋买卖需求" alt="金牌地产经纪 王家毅 Jayden Wang PREC* 比您更懂您的房屋买卖需求"/></a></li>    </ul>
+</aside>
+    <div class="clear"></div>
+</div>
+<!--region 商家推广加速服务弹窗-->
+<div id="dialog_business_service" style="display: none;">
+    <div class="dialog_content">
+        <div class="dialog_model">
+            <div class="close_service_publish" id="close_service_publish"></div>
+            <div class="title">商家推广加速服务</div>
+            <div class="box">
+                <div class="demo_img"></div>
+                <div class="demo_txt">
+                    <p>如您想让您的广告获得更大的曝光，您可购买我们的商家推广加速服务。</p>
+                    <p>每条被加速的广告都会随机出现在所选的分类广告列表页的顶部及中间区域，以更快速的形式曝光。</p>
+                    <div class="link_us">
+                        <p class="bold mb20">请联系我们的专业广告方案咨询团队来帮您挑选最合适广告推广方案。</p>
+                        <div class="wechat">
+                            <div class="qrcode"></div>
+                            <div class="qrcode_txt bold">
+                                <p class="font14">扫码添加微信客服</p>
+                                <p class="font16 green">VanPeople_com</p>
+                            </div>
+                        </div>
+                        <div class="tel bold">
+                            <p class="font14 line">拨打广告业务咨询专线</p>
+                            <p class="font24 lineh32 green">778-686-6618</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--endregion-->
+    <!--地图找房-->
+    <div class="map_find_house find_map_btn">
+        <i class="map_ico"></i>
+        <p>地图找房</p>
+    </div>
+<div id="mask"></div>
+<div class="g_footer" style="margin-top:40px;">
+    <div class="finfo">
+        <div class="center">
+            <div class="footbox clearfix">
+                                <div class="footer-next-box clearfix">
+                    <div class="weblink">
+                        <div class="tit">网站链接</div>
+                        <ul class="clearfix">
+                            <li><a href="https://info.vanpeople.com/" target="_blank">新闻</a></li>
+                            <li><a href="https://c.vanpeople.com/" target="_blank">分类信息</a></li>
+                            <li><a href="https://corp.vanpeople.com/aboutus.php" target="_blank">关于我们</a></li>
+                            <li><a href="https://corp.vanpeople.com/ads.php" target="_blank">广告投放</a></li>
+                            <li><a href="https://www.vanpeople.com/activity/2019ncov/" target="_blank">疫情资讯</a></li>
+                            <li><a href="https://c.vanpeople.com/yellowpage.html" target="_blank">本地服务</a></li>
+                            <li><a href="https://corp.vanpeople.com/events.php" target="_blank">VPP大事记</a></li>
+                            <li><a href="mailto:news@vanpeople.com" target="_blank">新闻投稿</a></li>
+                            <li>
+                                <a href="https://www.vanpeople.com/space/space.php?do=home&amp;view=all" target="_blank">个人空间</a>
+                            </li>
+                            <li><a href="https://forum.vanpeople.com/portal.php" target="_blank">社区论坛</a></li>
+                            <li><a href="https://www.vanpeople.com/app_download/" target="_blank">手机APP</a></li>
+                            <li><a href="https://corp.vanpeople.com/link.php" target="_blank">友情链接</a></li>
+                            <li><a href="https://www.vanpeople.com/tools/link.php" target="_blank">常用工具</a></li>
+                            <li><a href="https://dp.vanpeople.com/" target="_blank">大温点评</a></li>
+                            <li><a href="https://corp.vanpeople.com/partner.php" target="_blank">合作伙伴</a></li>
+                            <li><a href="https://corp.vanpeople.com/sitemap.php" target="_blank">网站导航</a></li>
+                        </ul>
+                    </div>
+                    <div class="aboutus-box company_address">
+                        <div class="tit"><span>公司地址</span></div>
+                        <p><strong>温哥华总部</strong>#1028 Metrotower II 4720 Kingsway, Burnaby</p>
+                        <p><strong>列治文分部</strong>#150-10451 Shellbridge Way, Richmond</p>
+                        <p style="border-top:1px solid #eaeaea;padding-top:10px;height:29px;"><strong>洛杉矶总部</strong>#200
+                            1730 W Cameron Ave, West Covina</p>
+                        <!--<p class="app-svg"><a href="https://www.vanpeople.com/app_download/" target="_blank" class="colorff7200">我们的手机客户端</a></p>-->
+                    </div>
+                    <div class="aboutus-box g_pull-right">
+                        <div class="tit"><span>联系我们</span></div>
+                        <p>商务推广咨询：<a href="mailto:ads@vanpeople.com">ads@vanpeople.com</a> |
+                            <a href="tel:778-686-6618">778-686-6618</a></p>
+                        <p>网站管理/商户合作/服务建议：<a href="mailto:support@vanpeople.com">support@vanpeople.com</a></p>
+                        <p>
+                            微信客服：
+                            VanPeople_com（分类广告）                        </p>
+                        <p>爆料投稿：<a href="mailto:news@vanpeople.com">news@vanpeople.com</a></p>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copybox">
+        <div class="center clearfix" style="margin:0 auto;">
+            <div class="copyright">
+                <p><a href="https://www.vanpeople.com">VanPeople.com 人在温哥华官网</a> |
+                    <a href="http://www.lapeople.com" target="_blank">LApeople.com
+                        人在洛杉矶官网</a><a href="https://corp.vanpeople.com/policy.php" class="es-a" target="_blank">免责声明</a>
+                </p>
+            </div>
+            <div class="contactus">
+                <p>Copyright © 2008-
+                    <script type="text/javascript">
+                        var copyY = new Date(1757931940000);
+                        document.write(copyY.getFullYear());
+                    </script>
+                    VanPeople.com All Rights Reserved. 人在温哥华网 版权所有
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y85ZP1V3GW"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-Y85ZP1V3GW');
+</script><script>
+    var staticBase = 'https://static.vancdn.com/';
+    var saveBase = 'https://save.vancdn.com/';
+    var uploadBase = 'https://upload.vancdn.com/';
+    var imgPath = staticBase + 'van/c/v1/pc/img/';
+</script>
+<script src="https://static.vancdn.com/public/js/jquery/jquery-1.12.4.min.js?v=52"></script>
+<script src="https://static.vancdn.com/public/js/jquery/plugins/jquery.cookie/jquery.cookie-1.4.1.js?v=52"></script>
+<script src="https://static.vancdn.com/public/js/jquery/plugins/jquery.lazyload/jquery.lazyload-1.9.7.min.js?v=52"></script>
+<script src="https://static.vancdn.com/public/js/jquery/plugins/ion.rangeSlider/ion.rangeSlider.min.js?v=52"></script>
+<script src="https://static.vancdn.com/public/js/jquery/plugins/layDate/laydate.js?v=52"></script>
+<script src="https://static.vancdn.com/public/js/zh2big5/zh2big5.js?v=52"></script>
+<script src="https://static.vancdn.com/public/js/magicStr/magicStr.js?v=52"></script>
+<script src="https://static.vancdn.com/public/js/jdialog/jdialog-1.0.0.js?v=52"></script>
+<script src="https://static.vancdn.com/public/js/vendor/lottie-web/lottie.min.js?v=52"></script>
+<script src="https://static.vancdn.com/van/c/v1/pc/js/loadinganimation.js?v=52"></script>
+<script src="https://static.vancdn.com/van/c/v1/pc/js/all.js?v=52"></script>
+<script src="https://static.vancdn.com/public/js/myPage/myPage.js?v=52"></script>
+<script>
+    //监听返回状态(带参数时直接返回上一页)
+    window.addEventListener('popstate', function (e) {
+        window.history.back();
+    }, false);
+
+    //选择生活服务标签跳转
+    $("#chooseTags select").each(function () {
+        $(this).on("change", function () {
+            var jumpUrl = $(this).find("optgroup option:selected").val();
+            if (jumpUrl) {
+                goto(jumpUrl, "_blank");
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        var sortid = "42";
+        var tagid = "0";
+        var form = '';
+        var min = '';
+        var max = '';
+        var range_cfg = {
+            'min': 0, 'max': 4000,
+        };
+        //遍历渲染范围区间组件
+        if ($('#screen_list .child_block.range').length > 0) {
+            $('#screen_list .child_block.range').each(function () {
+                form = $(this).attr('data-form');
+                min = $(this).attr('data-min');
+                max = $(this).attr('data-max');
+                range_cfg = {
+                    'min': min, 'max': max,
+                };
+                rangeSlider(form, range_cfg);
+            });
+        }
+        $(document).on('input propertychange', '#screen_list .range_input input', function () {
+            var val = $(this).val().replace(/[\$,\s]/g, '');
+            var start_obj = $(this).parent().find('input.start_range');
+            var end_obj = $(this).parent().find('input.end_range');
+            var form = $(this).parents('.child_block').attr('data-form');
+            var min = parseInt($(this).parents('.child_block').attr('data-min'));
+            var max = parseInt($(this).parents('.child_block').attr('data-max'));
+            var from = start_obj.val().replace(/[\+,\s]/g, '').trim();
+            var to = end_obj.val().replace(/[\$,\s]/g, '').trim();
+            if (!/^[\d\+]+$/.test(val)) {
+                val = '';
+            }
+            /*if(!/^[\d\+]+$/.test(val) || val==0){
+             val = min;
+             }*/
+            if ($(this).hasClass('start_range')) {
+                from = val;
+                if (parseInt(from) > parseInt(to)) {
+                    to = parseInt(from) + 5;
+                }
+            }
+            if ($(this).hasClass('end_range')) {
+                to = val;
+            }
+            rangeSliderUpdate(form, from, to, $(this));
+        });
+        //筛选器滑过导航显示下拉
+        $(document).on('click', '#screen_list .screen_li .type_block', function (e) {
+            $('#mask').show();
+            if ($(this).next().is(':visible')) {
+                $(this).parent().removeClass('on');
+                $(this).next().hide();
+            }
+            else {
+                $(this).parent().addClass('on').siblings().removeClass('on');
+                $('#screen_list .child_block').hide();
+                $(this).next().show();
+            }
+        });
+        /*点击其他地方时，隐藏弹窗*/
+        $('#mask').on('click', function () {
+            $('#screen_list .screen_li').removeClass('on');
+            $('#screen_list .screen_li .child_block').hide();
+            $('#mask').hide();
+        });
+        //禁用重置按钮
+        $('#screen_list .checkbox').each(function () {
+            if ($(this).find('.child_li.on').length > 0) {
+                $(this).find('.reset_btn').addClass('on');
+            }
+        });
+        //筛选器中的重置按钮
+        $('#screen_list .reset_btn').click(function () {
+            if ($(this).hasClass('on')) {
+                var type = $(this).parents('.child_block').attr('data-type');
+                var form = $(this).parents('.child_block').attr('data-form');
+                var min = $(this).parents('.child_block').attr('data-min');
+                var max = $(this).parents('.child_block').attr('data-max');
+                if (type == 'range') {//类型为范围区域时
+                    rangeSliderUpdate(form, min, max);
+                }
+                else {//类型为多选
+                    $(this).parent().parent().find('.child_li').removeClass('on');
+                }
+                $(this).removeClass('on');
+            }
+        });
+        //筛选器中的确认按钮
+        $('#screen_list .confirm_btn').click(function () {
+            var sel_vals = [];
+            var pid = $(this).parent().parent().attr('data-pid');
+            var type = $(this).parents('.child_block').attr('data-type');
+            var form = $(this).parents('.child_block').attr('data-form');
+            srollTop = parseInt($('#screen_list').offset().top);
+            if (srollTop > 129) {
+                $('html,body').animate({scrollTop: 0}, 200);
+            }
+            var screenvals = JSON.parse(window.sessionStorage.getItem('screenvals'));
+            if (type == 'range') {//类型为范围区域时
+                $('#mask').hide();
+                $(this).parents('.screen_li').removeClass('on');
+                var min = $(this).parent().parent().find('.start_range').attr('data-val') != '' ? parseInt($(this).parent().parent().find('.start_range').attr('data-val')) : $(this).parent().parent().find('.start_range').attr('data-val');
+                var max = $(this).parent().parent().find('.end_range').attr('data-val') != '' ? parseInt($(this).parent().parent().find('.end_range').attr('data-val')) : $(this).parent().parent().find('.end_range').attr('data-val');
+                var def_min = parseInt($('#screen_list .child_block.' + form).attr('data-min'));
+                var def_max = parseInt($('#screen_list .child_block.' + form).attr('data-max'));
+                $('#screen_list .range_input input').removeClass('error_input');
+                /*if(min<def_min){//最小值不能小于最小值
+                 $(this).parent().parent().find(".start_range").addClass("error_input");
+                 return false;
+                 }
+                 if(max<def_min){//最大值不能小于最小值
+                 $(this).parent().parent().find(".end_range").addClass("error_input");
+                 return false;
+                 }*/
+                if (min > max) {//最小值大于最大值时，调换一下
+                    tmp_min = max;
+                    tmp_max = min;
+                    min = tmp_min;
+                    max = tmp_max;
+                    rangeSliderUpdate(form, min, max);
+                }
+                if ($(this).parent().parent().find('.start_range').val() == '') {
+                    $(this).parent().parent().find('.start_range').val(formatCurrency(def_min));
+                }
+                var toVal = formatCurrency(def_max);
+                if ($(this).parent().parent().find('.end_range').val() == '') {
+                    if (['price', 'mileage'].indexOf(form) > -1 && max == def_max) {
+                        toVal += '+';
+                    }
+                    $(this).parent().parent().find('.end_range').val(toVal);
+                }
+                if (min == def_min && max == def_max) {//默认价格区间不需要筛选价格
+                    $('#screen_val_list').find('li[data-pid=' + form + ']').remove();
+                }
+                else {
+                    sel_vals.push([min, max]);
+                    var prefix_str = '';
+                    var suffix_str = '';
+                    var val_str = '';
+                    if (form == 'price') {//价格
+                        prefix_str = '$';
+                        val_str = formatCurrency(min, prefix_str, suffix_str) + ' ~ ' + formatCurrency(max, prefix_str, suffix_str);
+                    }
+                    else if (form == 'year') {//型号年份
+                        suffix_str = '年';
+                        val_str = min + suffix_str + ' ~ ' + max + suffix_str;
+                    }
+                    else if (form == 'mileage') {//行驶里程
+                        suffix_str = 'km';
+                        val_str = formatCurrency(min, prefix_str, suffix_str) + ' ~ ' + formatCurrency(max, prefix_str, suffix_str);
+                    }
+                    else if (form == 'surplusmonth') {//剩余月份
+                        suffix_str = '个月';
+                        val_str = min + suffix_str + ' ~ ' + max + suffix_str;
+                    }
+                    if (min == max) {
+                        if (['price', 'mileage'].indexOf(form) > -1) {
+                            val_str = formatCurrency(min, prefix_str, suffix_str);
+                        }
+                        else {
+                            val_str = prefix_str + min + suffix_str;
+                        }
+                    }
+                    if (['price', 'mileage'].indexOf(form) > -1) {
+                        if (def_max == max) {
+                            val_str += '+';
+                        }
+                    }
+                    if ($('#screen_val_list').find('li[data-pid=' + form + ']').length == 0) {
+                        $('#screen_val_list').append('<li data-id="' + min + ',' + max + '" data-pid="' + form + '">' + val_str + ' <i class="close_btn"></i></li>');
+                    }
+                    else {
+                        $('#screen_val_list').find('li[data-pid=' + form + ']').attr('data-id', min + ',' + max).html(val_str + '<i class="close_btn"></i>');
+                    }
+                }
+            }
+            else {//类型为多选
+                $('#screen_val_list').find('li[data-pid=' + pid + ']').remove();
+                $(this).parent().parent().find('.child_li').each(function () {
+                    var id = $(this).attr('data-id');
+                    var pid = $(this).attr('data-pid');
+                    var name = $(this).text().trim();
+                    if ($(this).hasClass('on') && $('#screen_val_list').find('li[data-id=' + id + ']').length == 0) {
+                        sel_vals.push(id);
+                        $('#screen_val_list').append('<li data-id="' + id + '" data-pid="' + pid + '">' + name + ' <i class="close_btn"></i></li>');
+                    }
+                });
+            }
+            if ((screenvals != null && screenvals[pid] != sel_vals.join(',')) || screenvals == null) {//缓存的筛选值和当前选择的不同才请求ajax
+                s_city_val = $('#s_city').find('.select_val').attr('data-id') ? $('#s_city').find('.select_val').attr('data-id') : 0;
+                is_see_private_car = $('input[name=is_see_private_car]').prop('checked') ? 1 : 0;
+                getThisFilter(sortid, s_city_val, tagid, is_see_private_car);
+                //先移除重置按钮再添加重置按钮
+                $('#screen_val_list .remove_screen_btn').remove();
+                $('#screen_val_list').append('<span class="remove_screen_btn" id="remove_screen_btn">重置</span>');
+            }
+            $(this).parents('.child_block').hide();
+        });
+        //下拉筛选器导航置顶
+        $(window).scroll(function () {
+            /*srollTop = parseInt($(this).scrollTop());
+            var header_height = $('.header').height();
+            if (srollTop > header_height) {
+                $('#screen_list').addClass('fixed');
+            }
+            else {
+                $('#screen_list').removeClass('fixed');
+            }*/
+        });
+        //筛选器点击导航列表放入选中区域
+        $(document).on('click', '#screen_list .child_li', function () {
+            var id = $(this).attr('data-id');
+            var brand_id = $(this).attr('brand-id');
+            var pid = $(this).attr('data-pid');
+            var name = $(this).text().trim();
+            var selValsIds = id;
+            if ($(this).parents('.child_block').hasClass('radio')) {//单选
+                $('#mask').hide();
+                $(this).parents('.screen_li').removeClass('on');
+                srollTop = parseInt($('#screen_list').offset().top);
+                if (srollTop > 129) {
+                    $('html,body').animate({scrollTop: 0}, 200);
+                }
+                $(this).addClass('on').siblings().removeClass('on');
+                if ($('#screen_val_list').find('li[data-pid=' + pid + ']').length > 0) {
+                    $('#screen_val_list').find('li[data-pid=' + pid + ']').attr('data-id', id).html(name + '<i class="close_btn"></i>');
+                }
+                else {
+                    $('#screen_val_list').append('<li data-id="' + id + '" data-pid="' + pid + '">' + name + ' <i class="close_btn"></i></li>');
+                }
+                $(this).parents('.child_block').hide();
+            }
+            else {//多选
+                if ($(this).hasClass('on')) {
+                    $(this).removeClass('on');
+                }
+                else {
+                    $(this).addClass('on');
+                }
+                var sel_vals = [];
+                $('#screen_val_list').find('li[data-pid=' + pid + ']').remove();
+                $('#screen_list .child_block.checkbox').find('.child_li').each(function () {
+                    var id = $(this).attr('data-id');
+                    var pid = $(this).attr('data-pid');
+                    var name = $(this).text().trim();
+                    if ($(this).hasClass('on') && $('#screen_val_list').find('li[data-id=' + id + ']').length == 0) {
+                        sel_vals.push(id);
+                        $('#screen_val_list').append('<li data-id="' + id + '" data-pid="' + pid + '">' + name + ' <i class="close_btn"></i></li>');
+                    }
+                });
+                selValsIds = sel_vals.join(',');
+                /*//禁用重置按钮
+                 if($(this).parent().find(".child_li.on").length>0){
+                 $(this).parent().find(".reset_btn").addClass("on");
+                 }else{
+                 $(this).parent().find(".reset_btn").removeClass("on");
+                 }*/
+            }
+            var screenvals = JSON.parse(window.sessionStorage.getItem('screenvals'));
+            if ((screenvals != null && screenvals[pid] != selValsIds) || screenvals == null) {//缓存的筛选值和当前选择的不同才请求ajax
+                if (['92', '153', '264', '317'].indexOf(pid) > -1) {//选择的是车辆品牌
+                    //选择车辆品牌时清除之前选择的车系型号
+                    $('#screen_val_list li').each(function () {
+                        var selPid = $(this).attr('data-pid');
+                        if (['306', '307', '308', '361'].indexOf(selPid) > -1) {
+                            $(this).remove();
+                        }
+                    });
+                    //获取车系型号信息
+                    $.ajax({
+                        url: '/ajax/public/carseries.html',
+                        type: 'post',
+                        async: true,
+                        dataType: 'json',
+                        data: {action: 'series', 'sortid': sortid, brand_id: brand_id},
+                        beforeSend: function () {
+                            // jDialog('获取中',{'type':'loadingBlock','time':60000,bgColor:'rgba(0,0,0,0.75)',width:'120px',height:'120px'});
+                        },
+                        success: function (obj) {
+                            // jDialog('closeAll');
+                            if (obj.status == 'ok') {
+                                var series_html = '';
+                                $.each(obj.data.data, function (i, v) {
+                                    if (obj.data.action == 'series') {//车系/型号
+                                        series_html += '<li class="child_li" data-id="' + v.series_id + '" data-pid="' + obj.data.type_id + '">' + v.name + '</li>';
+                                    }
+                                });
+                                $('#screen_list .screen_li').find('.series ul').html(series_html);
+                            }
+                        },
+                        error: function () {
+                            jDialog('网络异常');
+                        },
+                    });
+                }
+                s_city_val = $('#s_city').find('.select_val').attr('data-id') ? $('#s_city').find('.select_val').attr('data-id') : 0;
+                is_see_private_car = $('input[name=is_see_private_car]').prop('checked') ? 1 : 0;
+                getThisFilter(sortid, s_city_val, tagid, is_see_private_car);
+            }
+            //先移除重置按钮再添加重置按钮
+            $('#screen_val_list .remove_screen_btn').remove();
+            $('#screen_val_list').append('<span class="remove_screen_btn" id="remove_screen_btn">重置</span>');
+        });
+        //移除选中的筛选值
+        $(document).on('click', '#screen_val_list li i.close_btn', function () {
+            $(this).parent().remove();
+            var pid = $(this).parent().attr('data-pid');
+            var id = $(this).parent().attr('data-id');
+            if (['price', 'year', 'mileage', 'surplusmonth'].indexOf(pid) > -1) {//价格区间
+                min = $('#screen_list .child_block.range.' + pid).attr('data-min');
+                max = $('#screen_list .child_block.range.' + pid).attr('data-max');
+                rangeSliderUpdate(pid, min, max);
+            }
+            else {
+                $('#screen_list').find('.child_li[data-id=' + id + ']').removeClass('on');
+            }
+            //删除车辆品牌时同时删除车系型号并清除车系型号列表
+            if (['92', '153', '264', '317'].indexOf(pid) > -1) {
+                $('#screen_val_list li').each(function () {
+                    var selPid = $(this).attr('data-pid');
+                    if (['306', '307', '308', '361'].indexOf(selPid) > -1) {
+                        $(this).remove();
+                    }
+                });
+                $('#screen_list .child_block.series ul').html('<li class="empty_tips">请先选择车辆品牌</li>');
+            }
+            s_city_val = $('#s_city').find('.select_val').attr('data-id') ? $('#s_city').find('.select_val').attr('data-id') : 0;
+            is_see_private_car = $('input[name=is_see_private_car]').prop('checked') ? 1 : 0;
+            getThisFilter(sortid, s_city_val, tagid, is_see_private_car);
+        });
+        //清空筛选已选条件
+        $(document).on('click', '#remove_screen_btn', function () {
+            $('#screen_list .screen_li').removeClass('on');
+            $('#screen_list .child_block').hide();
+            var screenvals = JSON.parse(window.sessionStorage.getItem('screenvals'));
+            if (screenvals != null) {
+                s_city_val = $('#s_city').find('.select_val').attr('data-id') ? $('#s_city').find('.select_val').attr('data-id') : 0;
+                is_see_private_car = $('input[name=is_see_private_car]').prop('checked') ? 1 : 0;
+                srollTop = parseInt($('#screen_list').offset().top);
+                if (srollTop > 129) {
+                    $('html,body').animate({scrollTop: 0}, 200);
+                }
+                //区间范围重置
+                $('#screen_list .child_block.range').each(function () {
+                    var form = $(this).attr('data-form');
+                    var min = $(this).attr('data-min');
+                    var max = $(this).attr('data-max');
+                    rangeSliderUpdate(form, min, max);
+                });
+                $('#screen_list .child_li').removeClass('on');
+                $('#screen_list .child_block.series ul').html('<li class="empty_tips">请先选择车辆品牌</li>');
+                $('#screen_val_list').html('');
+                getThisFilter(sortid, s_city_val, tagid, is_see_private_car);
+            }
+        });
+        //下拉列表
+        select(sortid, tagid);
+        var s_city_val = $.getUrlParam('area') == null || $.getUrlParam('area') == '' || $.getUrlParam('area') < 0 ? 0 : $.getUrlParam('area');
+        var is_see_private_car = $.getUrlParam('is_see_private_car') == null || $.getUrlParam('is_see_private_car') == '' || $.getUrlParam('is_see_private_car') < 0 ? 0 : $.getUrlParam('is_see_private_car');
+        // 选中的筛选
+        var screenvals = JSON.parse('[]');
+        //当筛选器选择内容为空时清除筛选器选中值
+        if (screenvals.length == 0) {
+            sessionStorage.removeItem('screenvals');
+        }
+        // var screenvals = JSON.parse(window.sessionStorage.getItem('screenvals'));
+        if (screenvals != null) {
+            if (!$.isEmptyObject(screenvals)) {
+                for (var i in screenvals) {
+                    $('#screen_list .child_block.checkbox ul[data-pid=' + i + '] .reset_btn').addClass('on');//多选项中有选中值时激活重置按钮
+                    if (screenvals.hasOwnProperty(i)) {
+                        var selvals = screenvals[i].split(',');
+                        var val_ids = selvals[0] + ',' + (selvals[1] ? selvals[1] : selvals[0]);
+                        var defMax = $('#screen_list .child_block.range.' + i).attr('data-max');
+                        var prefix_str = '';
+                        var suffix_str = '';
+                        if (i == 'price') {//价格范围
+                            rangeSliderUpdate(i, selvals[0], selvals[1]);
+                            prefix_str = '$';
+                            var val_str = formatCurrency(selvals[0], prefix_str, suffix_str) + (selvals[0] != selvals[1] ? ' ~ ' + formatCurrency(selvals[1], prefix_str, suffix_str) : '');
+                            if ((selvals.length == 1 && selvals[0] == defMax) || selvals[1] == defMax) {
+                                val_str += '+';
+                            }
+                            var s_value_html = '<li data-id="' + val_ids + '" data-pid="' + i + '">' + val_str + ' <i class="close_btn"></i></li>';
+                            $('#screen_val_list').append(s_value_html);
+                        }
+                        else if (i == 'year') {//型号年份
+                            rangeSliderUpdate(i, selvals[0], selvals[1]);
+                            suffix_str = '年';
+                            var val_str = selvals[0] + suffix_str + (selvals[1] ? ' ~ ' + selvals[1] + suffix_str : '');
+                            var s_value_html = '<li data-id="' + val_ids + '" data-pid="' + i + '">' + val_str + ' <i class="close_btn"></i></li>';
+                            $('#screen_val_list').append(s_value_html);
+                        }
+                        else if (i == 'mileage') {//行驶里程
+                            rangeSliderUpdate(i, selvals[0], selvals[1]);
+                            suffix_str = 'km';
+                            var val_str = formatCurrency(selvals[0], prefix_str, suffix_str) + (selvals[0] != selvals[1] ? ' ~ ' + formatCurrency(selvals[1], prefix_str, suffix_str) : '');
+                            if ((selvals.length == 1 && selvals[0] == defMax) || selvals[1] == defMax) {
+                                val_str += '+';
+                            }
+                            var s_value_html = '<li data-id="' + val_ids + '" data-pid="' + i + '">' + val_str + ' <i class="close_btn"></i></li>';
+                            $('#screen_val_list').append(s_value_html);
+                        }
+                        else if (i == 'surplusmonth') {//剩余月份
+                            rangeSliderUpdate(i, selvals[0], selvals[1]);
+                            suffix_str = '个月';
+                            var val_str = formatCurrency(selvals[0], prefix_str, suffix_str) + (selvals[0] != selvals[1] ? ' ~ ' + formatCurrency(selvals[1], prefix_str, suffix_str) : '');
+                            if ((selvals.length == 1 && selvals[0] == defMax) || selvals[1] == defMax) {
+                                val_str += '+';
+                            }
+                            var s_value_html = '<li data-id="' + val_ids + '" data-pid="' + i + '">' + val_str + ' <i class="close_btn"></i></li>';
+                            $('#screen_val_list').append(s_value_html);
+                        }
+                        else if (!isNaN(i)) {//键名为数字时
+                            for (var k in selvals) {
+                                $('#screen_list .child_block').find('.child_li[data-id=' + selvals[k] + ']').addClass('on');
+                                val_str = $('#screen_list .child_block').find('.child_li[data-id=' + selvals[k] + ']').text();
+                                var s_value_html = '<li data-id="' + selvals[k] + '" data-pid="' + i + '">' + val_str + ' <i class="close_btn"></i></li>';
+                                $('#screen_val_list').append(s_value_html);
+                            }
+                        }
+                    }
+                }
+            }
+            $('#screen_val_list').append('<span class="remove_screen_btn" id="remove_screen_btn">重置</span>');
+        }
+        //是否仅看私人二手车
+        if (is_see_private_car == 1) {
+            $('input[name=is_see_private_car]').attr('checked', true);
+        }
+        $('input[name=is_see_private_car]').on('change', function () {
+            s_city_val = $('#s_city').find('.select_val').attr('data-id') ? $('#s_city').find('.select_val').attr('data-id') : 0;
+            if ($(this).prop('checked')) {
+                setCookie('is_see_private_car', 1, null, '/');
+                is_see_private_car = 1;
+            }
+            else {
+                setCookie('is_see_private_car', 0, null, '/');
+                is_see_private_car = 0;
+            }
+            getThisFilter(sortid, s_city_val, tagid, is_see_private_car);
+        });
+    });
+
+    function GetQueryString(name) {
+        var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)');
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) {
+            return unescape(r[2]);
+        }
+        return null;
+    }
+
+    //下拉选择select
+    var select = function (sortid, tagid) {
+        var sortid = sortid || 0;
+        var tagid = tagid || 0;
+        //选中地区
+        s_city_val = $.getUrlParam('area') == null || $.getUrlParam('area') == '' || $.getUrlParam('area') < 0 ? 0 : $.getUrlParam('area');
+        if (s_city_val > 0) {
+            $('#s_city .option').find('.option_item[data-id=\'' + s_city_val + '\']').addClass('selected');
+        }
+        //是否仅看私人二手车
+        var is_see_private_car = $('input[name=is_see_private_car]').prop('checked') ? 1 : 0;
+        //下拉选择框
+        $('.select .option .option_item').each(function (i, v) {
+            //有默认值选中
+            if ($(this).hasClass('selected')) {
+                var sel_id = $(this).attr('data-id');
+                var sel_name = $(this).text();
+                $(this).parent().parent().find('.select_val').attr('data-id', sel_id);
+                $(this).parent().parent().find('.select_val').text(sel_name);
+            }
+        });
+        /*点击其他地方时，select会收起来*/
+        $('#mask').on('click', function () {
+            $('.option').hide();
+            $('.select .select_head .select-icon').removeClass('up');
+            $('#mask').hide();
+        });
+        /*点击后出现下拉框*/
+        $(document).on('click', '.select .select_head', function (e) {
+            $('#mask').show();
+            if ($(this).siblings('.option').is(':visible')) {
+                $(this).siblings('.option').hide();
+                $(this).find('.select-icon').removeClass('up');
+            }
+            else {
+                $(this).siblings('.option').css('display', 'inline-block');
+                $(this).find('.select-icon').addClass('up');
+            }
+            e.stopPropagation();
+        });
+        /*点击选项后出现在下拉框*/
+        $(document).on('click', '.option_item', function () {
+            $('#mask').hide();
+            $(this).parent().parent().find('.select_val').text($(this).text());
+            $(this).parent().parent().find('.select_val').attr('data-id', $(this).attr('data-id'));
+            $(this).parent().hide();
+            $(this).parent().parent().find('.select-icon').removeClass('up');
+            $('ul.select ul.option').hide();
+            s_city_val = $(this).attr('data-id');
+            is_see_private_car = $('input[name=is_see_private_car]').prop('checked') ? 1 : 0;
+            if (s_city_val > 0) {
+                setCookie('s_city', s_city_val, null, '/');
+                getThisFilter(sortid, s_city_val, tagid, is_see_private_car);
+            }
+            else {
+                setCookie('s_city', 0, null, '/');
+                getThisFilter(sortid, s_city_val, tagid, is_see_private_car);
+            }
+        });
+    };
+    //加载地图找房图标动画
+    if (typeof bodymovin !== "undefined") {
+        bodymovin.loadAnimation({
+            wrapper: $(".map_ico")[0],
+            animType: 'html',
+            loop: true,
+            prerender: true,
+            autoplay: true,
+            animationData: loadingAnimation,
+        });
+    }
+    //地图找房跳转
+    $(document).on('click', '.find_map_btn', function () {
+        goto('https://map.vanpeople.com/', '_blank');
+    });
+    //点击如何成为被推广的商户弹窗
+    $(document).on('click', '.show_ads', function () {
+        var top = $(document).scrollTop();
+        $(document).on('scroll.unable', function () {
+            $(document).scrollTop(top);
+        });
+        $('#dialog_business_service').fadeIn();
+    });
+    $(document).on('click', '#close_service_publish', function () {
+        $(document).unbind('scroll.unable');
+        $('#dialog_business_service').fadeOut();
+    });
+</script>
+</body>
+</html>

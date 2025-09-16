@@ -1,0 +1,52 @@
+name: Update Rental Data
+
+on:
+  schedule:
+    # 每天早上6点和晚上6点更新数据 (UTC时间)
+    - cron: '0 6,18 * * *'
+  workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4
+
+    - name: Run scraper
+      run: |
+        python assets/vanpeople_rental_scraper.py
+
+    - name: Move updated data
+      run: |
+        if [ -f vanpeople_rentals.json ]; then
+          mv vanpeople_rentals.json data/
+        fi
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/vanpeople_rentals.json
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Auto-update rental data $(date +'%Y-%m-%d %H:%M')"
+          git push
+        fi

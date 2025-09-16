@@ -1,0 +1,23 @@
+title: VanPeople 租房信息查看器
+description: 温哥华地区租房信息抓取和展示系统
+baseurl: ""
+url: ""
+
+# GitHub Pages settings
+plugins:
+  - jekyll-sitemap
+
+# Exclude files from processing
+exclude:
+  - assets/vanpeople_rental_scraper.py
+  - nocache_server.py
+  - safe_server.py
+  - start_server.py
+  - test_*.py
+  - debug_*.html
+  - requirements.txt
+  - 使用说明.md
+
+# Include data files
+include:
+  - data/
