@@ -31,7 +31,7 @@ jobs:
 
     - name: Run scraper
       run: |
-        python assets/vanpeople_rental_scraper.py
+        python vanpeople_rental_scraper.py
 
     - name: Move updated data
       run: |
